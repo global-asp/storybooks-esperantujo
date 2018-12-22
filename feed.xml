@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rakontoj por Esperantujo</title>
+    <description>Rakontoj por Esperantujo is designed specifically for teachers, parents, and community members. It makes 40 stories from the African Storybook available in Esperanto as well as the major national, immigrant and refugee languages of the world, with stories in Arabic, French, German, Italian, Persian, Polish, Portuguese, Punjabi, Spanish, Tagalog, and Urdu, among others.
+</description>
+    <link>https://global-asp.github.io//storybooks-esperantujo/</link>
+    <atom:link href="https://global-asp.github.io//storybooks-esperantujo/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 22 Dec 2018 12:21:04 -0800</pubDate>
+    <lastBuildDate>Sat, 22 Dec 2018 12:21:04 -0800</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+  </channel>
+</rss>
