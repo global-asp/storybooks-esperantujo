@@ -76,7 +76,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-esperantujo/stories/nb" class="button">Reiri al la rakontolisto</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-esperantujo/stories/nb">Reiri al la rakontolisto</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/01.jpg"></div>
@@ -84,22 +84,22 @@
 		<h1><span class="def">Avgjørelse</span>
 			<span class="l1">Decido</span>
 			<span class="l2">Decision</span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/nb/0027/mp3/01.mp3"></audio>
-				<button onclick="switchlang('nb,eo','eo,fr,nb')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (bokmål) kaj Esperanto">eo</button>
-				<button style="display:none" onclick="switchlang('nb,fr','eo,fr,nb')" class="btn btn-lg lang-secondary" title="Ŝalti inter norvega (bokmål) kaj franca">fr</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Verkita de"><img class="cover-icon" src="/storybooks-esperantujo/css/pencil.svg" alt="Verkita de" width="38px"></span> Ursula Nafula</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustrita de"><img class="cover-icon" src="/storybooks-esperantujo/css/art.svg" alt="Ilustrita de" width="38px"></span> Vusi Malindi</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Tradukita de"><img class="cover-icon" src="/storybooks-esperantujo/css/global.svg" alt="Tradukita de" width="38px"></span> Espen Stranger-Johannessen</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegita de"><img class="cover-icon" src="/storybooks-esperantujo/css/megaphone.svg" alt="Laŭtlegita de" width="38px"></span> Espen Stranger-Johannessen</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lingvo"><img class="cover-icon" src="/storybooks-esperantujo/css/language.svg" alt="Lingvo" width="38px"></span> <a href="/storybooks-esperantujo/stories/nb">norvega (bokmål)</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nivelo"><img class="cover-icon" src="/storybooks-esperantujo/css/level.svg" alt="Nivelo" width="38px"></span> <a href="/storybooks-esperantujo/stories/nb/level2">2-a nivelo</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegi rakonton"><img class="cover-icon" src="/storybooks-esperantujo/css/speaker.svg" alt="Laŭtlegi la tutan rakonton" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/nb/0027/nb-0027_decision.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Aŭtomate ludi la rakonton (beta - nur labortable)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Aŭtomate ludi la rakonton" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/nb/0027/mp3/01.mp3"></audio>
+			<button onclick="switchlang('nb,eo','eo,fr,nb')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (bokmål) kaj Esperanto">eo</button>
+			<button style="display:none" onclick="switchlang('nb,fr','eo,fr,nb')" class="btn btn-lg lang-secondary" title="Ŝalti inter norvega (bokmål) kaj franca">fr</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Verkita de"><img class="cover-icon" src="/storybooks-esperantujo/css/pencil.svg" alt="Verkita de"></span> Ursula Nafula</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustrita de"><img class="cover-icon" src="/storybooks-esperantujo/css/art.svg" alt="Ilustrita de"></span> Vusi Malindi</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Tradukita de"><img class="cover-icon" src="/storybooks-esperantujo/css/global.svg" alt="Tradukita de"></span> Espen Stranger-Johannessen</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegita de"><img class="cover-icon" src="/storybooks-esperantujo/css/megaphone.svg" alt="Laŭtlegita de"></span> Espen Stranger-Johannessen</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lingvo"><img class="cover-icon" src="/storybooks-esperantujo/css/language.svg" alt="Lingvo"></span> <a href="/storybooks-esperantujo/stories/nb">norvega (bokmål)</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nivelo"><img class="cover-icon" src="/storybooks-esperantujo/css/level.svg" alt="Nivelo"></span> <a href="/storybooks-esperantujo/stories/nb/level2">2-a nivelo</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegi rakonton"><img class="cover-icon" src="/storybooks-esperantujo/css/speaker.svg" alt="Laŭtlegi la tutan rakonton"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/nb/0027/nb-0027_decision.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Aŭtomate ludi la rakonton (beta - nur labortable)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Aŭtomate ludi la rakonton" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -578,7 +578,7 @@
 		<h5><a href="/storybooks-esperantujo/stories/nb/level2">2-a nivelo</a></h5>
 		<h5>Fonto: <a href="https://africanstorybook.org/stories/13304" target="_blank">Decision</a> el la <a href="https://africanstorybook.org/">Afrika Rakontlibro</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.eo"><img alt="Krea Komunaĵo Permesilo" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Ĉi-tiu verko estas libere disponebla laŭ la <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.eo">Atribuite 4.0 Internacia Permesilo de la Krea Komunaĵo</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.eo" target="_blank"><img alt="Krea Komunaĵo Permesilo" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Ĉi-tiu verko estas libere disponebla laŭ la <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.eo" target="_blank">Atribuite 4.0 Internacia Permesilo de la Krea Komunaĵo</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">

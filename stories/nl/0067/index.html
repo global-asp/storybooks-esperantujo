@@ -76,7 +76,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-esperantujo/stories/nl" class="button">Reiri al la rakontolisto</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-esperantujo/stories/nl">Reiri al la rakontolisto</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0067/01.jpg"></div>
@@ -84,21 +84,21 @@
 		<h1><span class="def">Koken</span>
 			<span class="l1">Kuirado</span>
 			<span class="l2">Cooking</span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/nl/0067/mp3/01.mp3"></audio>
-				<button onclick="switchlang('nl,eo','eo,fr,nl')" class="btn btn-lg lang-primary" title="Ŝalti inter nederlanda kaj Esperanto">eo</button>
-				<button style="display:none" onclick="switchlang('nl,fr','eo,fr,nl')" class="btn btn-lg lang-secondary" title="Ŝalti inter nederlanda kaj franca">fr</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Verkita de"><img class="cover-icon" src="/storybooks-esperantujo/css/pencil.svg" alt="Verkita de" width="38px"></span> Clare Verbeek, Thembani Dladla, Zanele Buthelezi</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustrita de"><img class="cover-icon" src="/storybooks-esperantujo/css/art.svg" alt="Ilustrita de" width="38px"></span> Kathy Arbuckle, Ingrid Schechter</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Tradukita de"><img class="cover-icon" src="/storybooks-esperantujo/css/global.svg" alt="Tradukita de" width="38px"></span> Sacha Kalseth</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lingvo"><img class="cover-icon" src="/storybooks-esperantujo/css/language.svg" alt="Lingvo" width="38px"></span> <a href="/storybooks-esperantujo/stories/nl">nederlanda</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nivelo"><img class="cover-icon" src="/storybooks-esperantujo/css/level.svg" alt="Nivelo" width="38px"></span> <a href="/storybooks-esperantujo/stories/nl/level1">1-a nivelo</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegi rakonton"><img class="cover-icon" src="/storybooks-esperantujo/css/speaker.svg" alt="Laŭtlegi la tutan rakonton" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/nl/0067/nl-0067_cooking.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Aŭtomate ludi la rakonton (beta - nur labortable)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Aŭtomate ludi la rakonton" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/nl/0067/mp3/01.mp3"></audio>
+			<button onclick="switchlang('nl,eo','eo,fr,nl')" class="btn btn-lg lang-primary" title="Ŝalti inter nederlanda kaj Esperanto">eo</button>
+			<button style="display:none" onclick="switchlang('nl,fr','eo,fr,nl')" class="btn btn-lg lang-secondary" title="Ŝalti inter nederlanda kaj franca">fr</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Verkita de"><img class="cover-icon" src="/storybooks-esperantujo/css/pencil.svg" alt="Verkita de"></span> Clare Verbeek, Thembani Dladla, Zanele Buthelezi</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustrita de"><img class="cover-icon" src="/storybooks-esperantujo/css/art.svg" alt="Ilustrita de"></span> Kathy Arbuckle, Ingrid Schechter</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Tradukita de"><img class="cover-icon" src="/storybooks-esperantujo/css/global.svg" alt="Tradukita de"></span> Sacha Kalseth</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lingvo"><img class="cover-icon" src="/storybooks-esperantujo/css/language.svg" alt="Lingvo"></span> <a href="/storybooks-esperantujo/stories/nl">nederlanda</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nivelo"><img class="cover-icon" src="/storybooks-esperantujo/css/level.svg" alt="Nivelo"></span> <a href="/storybooks-esperantujo/stories/nl/level1">1-a nivelo</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegi rakonton"><img class="cover-icon" src="/storybooks-esperantujo/css/speaker.svg" alt="Laŭtlegi la tutan rakonton"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/nl/0067/nl-0067_cooking.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Aŭtomate ludi la rakonton (beta - nur labortable)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Aŭtomate ludi la rakonton" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -344,7 +344,7 @@
 		<h5><a href="/storybooks-esperantujo/stories/nl/level1">1-a nivelo</a></h5>
 		<h5>Fonto: <a href="https://africanstorybook.org/stories/2795" target="_blank">Cooking</a> el la <a href="https://africanstorybook.org/">Afrika Rakontlibro</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/deed.eo"><img alt="Krea Komunaĵo Permesilo" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a><br />Ĉi-tiu verko estas libere disponebla laŭ la <a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/deed.eo">Atribuite-Nekomerce 3.0 Internacia Permesilo de la Krea Komunaĵo</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/deed.eo" target="_blank"><img alt="Krea Komunaĵo Permesilo" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a><br />Ĉi-tiu verko estas libere disponebla laŭ la <a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/deed.eo" target="_blank">Atribuite-Nekomerce 3.0 Internacia Permesilo de la Krea Komunaĵo</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
