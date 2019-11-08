@@ -16,6 +16,7 @@
 	<meta name="description" content="Rakontoj por Esperantujo is designed specifically for teachers, parents, and community members. It makes 40 stories from the African Storybook available in Esperanto as well as the major national, immigrant and refugee languages of the world, with stories in Arabic, French, German, Italian, Persian, Polish, Portuguese, Punjabi, Spanish, Tagalog, and Urdu, among others.
 ">
 	<link rel="stylesheet" href="/storybooks-esperantujo/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-esperantujo/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-esperantujo/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-esperantujo/stories/fr/0210/">
 	<link rel="alternate" type="application/rss+xml" title="Rakontoj por Esperantujo" href="/storybooks-esperantujo">
@@ -88,18 +89,18 @@
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/fr/0210/mp3/01.mp3"></audio>
+			<audio id="audio01" onended="resetbutton('01')" src="/storybooks-esperantujo/audio/fr/0210/mp3/01.mp3"></audio>
 			<button onclick="switchlang('fr,eo','eo,fr,fr')" class="btn btn-lg lang-primary" title="Ŝalti inter franca kaj Esperanto">eo</button>
 			<button style="display:none" onclick="switchlang('fr,fr','eo,fr,fr')" class="btn btn-lg lang-secondary" title="Ŝalti inter franca kaj franca">fr</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Verkita de"><img class="cover-icon" src="/storybooks-esperantujo/css/pencil.svg" alt="Verkita de"></span> Ingrid Schechter</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustrita de"><img class="cover-icon" src="/storybooks-esperantujo/css/art.svg" alt="Ilustrita de"></span> Ingrid Schechter</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Tradukita de"><img class="cover-icon" src="/storybooks-esperantujo/css/global.svg" alt="Tradukita de"></span> Olivia Mahe, Translators without Borders</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegita de"><img class="cover-icon" src="/storybooks-esperantujo/css/megaphone.svg" alt="Laŭtlegita de"></span> Alexandra Danahy</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lingvo"><img class="cover-icon" src="/storybooks-esperantujo/css/language.svg" alt="Lingvo"></span> <a href="/storybooks-esperantujo/stories/fr">franca</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nivelo"><img class="cover-icon" src="/storybooks-esperantujo/css/level.svg" alt="Nivelo"></span> <a href="/storybooks-esperantujo/stories/fr/level2">2-a nivelo</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegi rakonton"><img class="cover-icon" src="/storybooks-esperantujo/css/speaker.svg" alt="Laŭtlegi la tutan rakonton"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fr/0210/fr-0210_tingi.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Aŭtomate ludi la rakonton (beta - nur labortable)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Aŭtomate ludi la rakonton" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Verkita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/pencil.svg" alt="Verkita de"></span> Ingrid Schechter</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustrita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/art.svg" alt="Ilustrita de"></span> Ingrid Schechter</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Tradukita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/global.svg" alt="Tradukita de"></span> Olivia Mahe, Translators without Borders</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/megaphone.svg" alt="Laŭtlegita de"></span> Monique Bournot-Trites</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lingvo"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/language.svg" alt="Lingvo"></span> <a href="/storybooks-esperantujo/stories/fr">franca</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nivelo"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/level.svg" alt="Nivelo"></span> <a href="/storybooks-esperantujo/stories/fr/level2">2-a nivelo</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegi rakonton"><img class="cover-icon cover-icon-audio" src="/storybooks-esperantujo/css/speaker.svg" alt="Laŭtlegi la tutan rakonton"></span> <audio id="audioplayer" controls><source src="/0210/fr-0210_tingi.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Aŭtomate ludi la rakonton (beta - nur labortable)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Aŭtomate ludi la rakonton" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -108,16 +109,14 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0210/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
 
-	Tingi vivait avec sa
-grand-mère.
+	Tingi vivait avec sa grand-mère.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Tingi vivis kun sia avino.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Tingi vivait avec sa
-grand-mère.
+	Tingi vivait avec sa grand-mère.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -139,16 +138,14 @@ grand-mère.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0210/03.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
 
-	Il gardait les vaches
-avec elle.
+	Il gardait les vaches avec elle.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Li gardis la bovojn kun ŝi.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Il gardait les vaches
-avec elle.
+	Il gardait les vaches avec elle.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -170,16 +167,14 @@ avec elle.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0210/04.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
 
-	Un jour, des soldats
-arrivèrent.
+	Un jour, des soldats arrivèrent.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Iun tagon la soldatoj venis.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Un jour, des soldats
-arrivèrent.
+	Un jour, des soldats arrivèrent.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -201,16 +196,14 @@ arrivèrent.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0210/05.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
 
-	Ils emmenèrent les
-vaches.
+	Ils emmenèrent les vaches.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Ili forprenis la bovojn.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Ils emmenèrent les
-vaches.
+	Ils emmenèrent les vaches.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -232,18 +225,14 @@ vaches.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0210/06.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
 
-	Tingi et sa grand-mère
-se sauvèrent et se
-cachèrent.
+	Tingi et sa grand-mère se sauvèrent et se cachèrent.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Tingi kaj lia avino forkuris kaj kaŝis sin.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Tingi et sa grand-mère
-se sauvèrent et se
-cachèrent.
+	Tingi et sa grand-mère se sauvèrent et se cachèrent.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -265,18 +254,14 @@ cachèrent.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0210/07.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
 
-	Ils restèrent cachés
-dans des buissons
-jusqu’au soir.
+	Ils restèrent cachés dans des buissons jusqu’au soir.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Ili kaŝis sin en la arbaro.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Ils restèrent cachés
-dans des buissons
-jusqu’au soir.
+	Ils restèrent cachés dans des buissons jusqu’au soir.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -298,16 +283,14 @@ jusqu’au soir.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0210/08.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
 
-	Puis les soldats
-revinrent.
+	Puis les soldats revinrent.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Tiam la soldatoj revenis.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Puis les soldats
-revinrent.
+	Puis les soldats revinrent.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -329,18 +312,14 @@ revinrent.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0210/09.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
 
-	La grand-mère de Tingi
-recouvrit alors leurs
-corps de feuilles.
+	La grand-mère de Tingi recouvrit alors leurs corps de feuilles.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Avino kaŝis Tingi sub la folioj.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	La grand-mère de Tingi
-recouvrit alors leurs
-corps de feuilles.
+	La grand-mère de Tingi recouvrit alors leurs corps de feuilles.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -362,18 +341,14 @@ corps de feuilles.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0210/10.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
 
-	Un des soldats marcha
-sur Tingi, mais celui-ci
-ne réagit pas.
+	Un des soldats marcha sur Tingi, mais celui-ci ne réagit pas.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Unu el la soldatoj paŝis ĝuste sur li, sed li restis silenta.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Un des soldats marcha
-sur Tingi, mais celui-ci
-ne réagit pas.
+	Un des soldats marcha sur Tingi, mais celui-ci ne réagit pas.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -395,20 +370,14 @@ ne réagit pas.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0210/11.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
 
-	Quand il n’y eut plus de
-danger, Tingi et sa
-grand-mère se
-relevèrent.
+	Quand il n’y eut plus de danger, Tingi et sa grand-mère se relevèrent.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Kiam ĉio sendanĝeris denove, Tingi kaj lia avino elvenis.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Quand il n’y eut plus de
-danger, Tingi et sa
-grand-mère se
-relevèrent.
+	Quand il n’y eut plus de danger, Tingi et sa grand-mère se relevèrent.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -430,18 +399,14 @@ relevèrent.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0210/12.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
 
-	Ils revinrent chez eux
-sans faire le moindre
-bruit.
+	Ils revinrent chez eux sans faire le moindre bruit.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Ili alproksimiĝis hejmon tre silente.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Ils revinrent chez eux
-sans faire le moindre
-bruit.
+	Ils revinrent chez eux sans faire le moindre bruit.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -464,10 +429,10 @@ bruit.
 		<h5>Verkita de: Ingrid Schechter</h5>
 		<h5>Ilustrita de: Ingrid Schechter</h5>
 		<h5>Tradukita de: Olivia Mahe, Translators without Borders</h5>
-		<h5>Laŭtlegita de: Alexandra Danahy</h5>
+		<h5>Laŭtlegita de: Monique Bournot-Trites</h5>
 		<h5>Lingvo: <a href="/storybooks-esperantujo/stories/fr">franca</a></h5>
 		<h5><a href="/storybooks-esperantujo/stories/fr/level2">2-a nivelo</a></h5>
-		<h5>Fonto: <a href="https://africanstorybook.org/stories/7441" target="_blank">Tingi and the Cows</a> el la <a href="https://africanstorybook.org/">Afrika Rakontlibro</a></h5>
+		<h5>Fonto: <a href="https://africanstorybook.org/reader.php?id=7441" target="_blank">Tingi and the Cows</a> el la <a href="https://africanstorybook.org/">Afrika Rakontlibro</a></h5>
 
 		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.eo" target="_blank"><img alt="Krea Komunaĵo Permesilo" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Ĉi-tiu verko estas libere disponebla laŭ la <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.eo" target="_blank">Atribuite 3.0 Internacia Permesilo de la Krea Komunaĵo</a>.</div>
 

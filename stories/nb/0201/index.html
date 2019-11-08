@@ -16,6 +16,7 @@
 	<meta name="description" content="Rakontoj por Esperantujo is designed specifically for teachers, parents, and community members. It makes 40 stories from the African Storybook available in Esperanto as well as the major national, immigrant and refugee languages of the world, with stories in Arabic, French, German, Italian, Persian, Polish, Portuguese, Punjabi, Spanish, Tagalog, and Urdu, among others.
 ">
 	<link rel="stylesheet" href="/storybooks-esperantujo/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-esperantujo/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-esperantujo/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-esperantujo/stories/nb/0201/">
 	<link rel="alternate" type="application/rss+xml" title="Rakontoj por Esperantujo" href="/storybooks-esperantujo">
@@ -88,18 +89,18 @@
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/nb/0201/mp3/01.mp3"></audio>
+			<audio id="audio01" onended="resetbutton('01')" src="/storybooks-esperantujo/audio/nb/0201/mp3/01.mp3"></audio>
 			<button onclick="switchlang('nb,eo','eo,fr,nb')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (bokmål) kaj Esperanto">eo</button>
 			<button style="display:none" onclick="switchlang('nb,fr','eo,fr,nb')" class="btn btn-lg lang-secondary" title="Ŝalti inter norvega (bokmål) kaj franca">fr</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Verkita de"><img class="cover-icon" src="/storybooks-esperantujo/css/pencil.svg" alt="Verkita de"></span> Lindiwe Matshikiza</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustrita de"><img class="cover-icon" src="/storybooks-esperantujo/css/art.svg" alt="Ilustrita de"></span> Meghan Judge</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Tradukita de"><img class="cover-icon" src="/storybooks-esperantujo/css/global.svg" alt="Tradukita de"></span> Espen Stranger-Johannessen</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegita de"><img class="cover-icon" src="/storybooks-esperantujo/css/megaphone.svg" alt="Laŭtlegita de"></span> Espen Stranger-Johannessen</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lingvo"><img class="cover-icon" src="/storybooks-esperantujo/css/language.svg" alt="Lingvo"></span> <a href="/storybooks-esperantujo/stories/nb">norvega (bokmål)</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nivelo"><img class="cover-icon" src="/storybooks-esperantujo/css/level.svg" alt="Nivelo"></span> <a href="/storybooks-esperantujo/stories/nb/level3">3-a nivelo</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegi rakonton"><img class="cover-icon" src="/storybooks-esperantujo/css/speaker.svg" alt="Laŭtlegi la tutan rakonton"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/nb/0201/nb-0201_donkey.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Aŭtomate ludi la rakonton (beta - nur labortable)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Aŭtomate ludi la rakonton" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Verkita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/pencil.svg" alt="Verkita de"></span> Lindiwe Matshikiza</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustrita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/art.svg" alt="Ilustrita de"></span> Meghan Judge</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Tradukita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/global.svg" alt="Tradukita de"></span> Espen Stranger-Johannessen</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/megaphone.svg" alt="Laŭtlegita de"></span> Espen Stranger-Johannessen</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lingvo"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/language.svg" alt="Lingvo"></span> <a href="/storybooks-esperantujo/stories/nb">norvega (bokmål)</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nivelo"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/level.svg" alt="Nivelo"></span> <a href="/storybooks-esperantujo/stories/nb/level3">3-a nivelo</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegi rakonton"><img class="cover-icon cover-icon-audio" src="/storybooks-esperantujo/css/speaker.svg" alt="Laŭtlegi la tutan rakonton"></span> <audio id="audioplayer" controls><source src="/0201/nb-0201_donkey.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Aŭtomate ludi la rakonton (beta - nur labortable)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Aŭtomate ludi la rakonton" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -173,7 +174,7 @@
 	Sinĝena sed kuraĝa, la knabineto proksimiĝis al la virino. “Ni devas teni ŝin kun ni,” la popolo de la knabineto decidis. “Ni gardos ŝin kaj ŝian infanon sekure.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Timide mais brave, la petite fille se rapprocha de la femme. « Nous devons la garder avec nous, » le peuple de la petite fille dit. « Nous la garderons en sécurité, ainsi que son enfant. »
+	Timide mais brave, la petite fille se rapprocha de la femme. « Nous devons la garder avec nous, » dit le peuple de la petite fille. « Nous la garderons en sécurité, ainsi que son enfant. »
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -260,7 +261,7 @@
 	Ĉiuj ekdisputis. “Ni diris ke ni gardus la patrinon kaj la infanon sekure, kaj tion ni faros,” diris iuj. “Sed ili alportos al ni malbonŝancon!” diris aliuloj.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Tout le monde commença à se disputer. « Nous avions dit que nous garderions mère et enfant en sécurité et c’est ce que nous ferons, » quelques-uns ont dit. « Mais ils vont nous porter malchance ! » ont dit d’autres.
+	Tout le monde commença à se disputer. « Nous avions dit que nous garderions mère et enfant en sécurité et c’est ce que nous ferons, » dirent quelques-uns. « Mais ils vont nous porter malchance ! » dirent d’autres.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -289,7 +290,7 @@
 	Kaj tiel la virino trovis sin sola denove. Ŝi demandis sin, kion ŝi faru kun tio stranga infano. Ŝi demandis sin, kion ŝi faru kun si mem.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Ainsi, la femme se retrouva seule encore une fois. Elle se demanda quoi faire avec cet enfant malcommode. Elle se demanda quoi faire avec elle-même.
+	Ainsi, la femme se retrouva seule encore une fois. Elle se demanda quoi faire de cet enfant embarrassant. Elle se demanda quoi faire d’elle-même.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -369,7 +370,7 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/11.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	Esel ble fylt av forvirring og sinne. Han kunne ikke gjøre ditt og han kunne ikke gjøre datt. Han kunne ikke være på én måte og han kunne ikke være på en annen måte. Han ble så sint at han en dag sparket ned huset til moren sin.
+	Esel ble fylt av forvirring og sinne. Han kunne ikke gjøre ditt, og han kunne ikke gjøre datt. Han kunne ikke være på én måte, og han kunne ikke være på en annen måte. Han ble så sint at han en dag sparket ned huset til moren sin.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -405,7 +406,7 @@
 	Azeno pleniĝis de honto. Li forkuris laŭeble plej malproksime kaj rapide.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Âne fut rempli de honte. Il commença à se sauver aussi vite et aussi loin qu’il pouvait.
+	Âne fut rempli de honte. Il commença à se sauver aussi vite et aussi loin qu’il pu.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -434,7 +435,7 @@
 	Kiam li ĉesis kuri, estis jam nokto, kaj Azeno perdiĝis. “I-a?” li flustris al la mallumo. “I-a?” ĝi resonis al li. Li estis sola. Li buklis sin strikte en pilkoformo kaj eniris profundan kaj maltrankvilan dormadon.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Quand il arrêta de courir, la nuit était tombée et Âne était perdu. « Hi han ? » il chuchota à la noirceur. « Hi han ? » la noirceur retourna en écho. Il était seul. Se lovant en petite boule, troublé, il s’endormit profondément.
+	Quand il s’arrêta de courir, la nuit était tombée et Âne était perdu. « Hi han ? » il chuchota à la noirceur. « Hi han ? » retourna la noirceur en écho. Il était seul. Se lovant en petite boule, il tomba dans un sommeil profond et agité..
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -492,7 +493,7 @@
 	Azeno restis kun la maljunulo, kiu instruis lin pri multaj diversaj vivteno-manieroj. Azeno aŭskultis kaj lernis, samkiel la maljunulo. Ili helpis unu la alian, kaj ili kune ridis.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Âne parti vivre avec le vieil homme, qui lui montra plusieurs façons de survivre. Âne écouta et il apprit, et le vieil homme aussi. Ils s’aidèrent tous les deux et ils rirent ensemble.
+	Âne parti vivre avec le vieil homme, qui lui montra plusieurs façons de survivre. Âne écouta et apprit, et le vieil homme aussi. Ils s’aidèrent l’un l’autre et ils rirent ensemble.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -579,7 +580,7 @@
 	… la nuboj estis malaperintaj, kune kun lia amiko, la maljunulo.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	… les nuages étaient disparus avec son ami le vieil homme.
+	… les nuages avaient disparus avec son ami le vieil homme.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -630,7 +631,7 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/20.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	Esel fant moren sin som var alene, og sørget over tapet av barnet sitt. De stirret på hverandre lenge. Og så klemte de hverandre veldig hardt.
+	Esel fant moren sin, som var alene og sørget over tapet av barnet sitt. De stirret på hverandre lenge. Og så klemte de hverandre veldig hardt.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -666,7 +667,7 @@
 	La azeninfano kaj lia patrino kreskiĝis kune kaj trovis multajn manierojn por kunvivi. Iom post iom aliaj familioj ekloĝis ĉirkaŭe.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	L’enfant-âne et sa mère ont grandis ensemble et ils ont trouvé plusieurs manières de coexister. Lentement, tout autour d’eux, d’autres familles ont commencés à s’installer.
+	L’enfant-âne et sa mère ont grandi ensemble et ils ont trouvé plusieurs manières de coexister. Lentement, tout autour d’eux, d’autres familles ont commencé à s’installer.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -692,7 +693,7 @@
 		<h5>Laŭtlegita de: Espen Stranger-Johannessen</h5>
 		<h5>Lingvo: <a href="/storybooks-esperantujo/stories/nb">norvega (bokmål)</a></h5>
 		<h5><a href="/storybooks-esperantujo/stories/nb/level3">3-a nivelo</a></h5>
-		<h5>Fonto: <a href="https://africanstorybook.org/stories/15028" target="_blank">Donkey Child</a> el la <a href="https://africanstorybook.org/">Afrika Rakontlibro</a></h5>
+		<h5>Fonto: <a href="https://africanstorybook.org/reader.php?id=15028" target="_blank">Donkey Child</a> el la <a href="https://africanstorybook.org/">Afrika Rakontlibro</a></h5>
 
 		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.eo" target="_blank"><img alt="Krea Komunaĵo Permesilo" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Ĉi-tiu verko estas libere disponebla laŭ la <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.eo" target="_blank">Atribuite 4.0 Internacia Permesilo de la Krea Komunaĵo</a>.</div>
 

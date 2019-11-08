@@ -16,6 +16,7 @@
 	<meta name="description" content="Rakontoj por Esperantujo is designed specifically for teachers, parents, and community members. It makes 40 stories from the African Storybook available in Esperanto as well as the major national, immigrant and refugee languages of the world, with stories in Arabic, French, German, Italian, Persian, Polish, Portuguese, Punjabi, Spanish, Tagalog, and Urdu, among others.
 ">
 	<link rel="stylesheet" href="/storybooks-esperantujo/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-esperantujo/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-esperantujo/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-esperantujo/stories/ko/0315/">
 	<link rel="alternate" type="application/rss+xml" title="Rakontoj por Esperantujo" href="/storybooks-esperantujo">
@@ -88,18 +89,18 @@
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/ko/0315/mp3/01.mp3"></audio>
+			<audio id="audio01" onended="resetbutton('01')" src="/storybooks-esperantujo/audio/ko/0315/mp3/01.mp3"></audio>
 			<button onclick="switchlang('ko,eo','eo,fr,ko')" class="btn btn-lg lang-primary" title="Ŝalti inter korea kaj Esperanto">eo</button>
 			<button style="display:none" onclick="switchlang('ko,fr','eo,fr,ko')" class="btn btn-lg lang-secondary" title="Ŝalti inter korea kaj franca">fr</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Verkita de"><img class="cover-icon" src="/storybooks-esperantujo/css/pencil.svg" alt="Verkita de"></span> Ursula Nafula</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustrita de"><img class="cover-icon" src="/storybooks-esperantujo/css/art.svg" alt="Ilustrita de"></span> Peris Wachuka</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Tradukita de"><img class="cover-icon" src="/storybooks-esperantujo/css/global.svg" alt="Tradukita de"></span> Jong Yong Park</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegita de"><img class="cover-icon" src="/storybooks-esperantujo/css/megaphone.svg" alt="Laŭtlegita de"></span> Scarlet Kim</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lingvo"><img class="cover-icon" src="/storybooks-esperantujo/css/language.svg" alt="Lingvo"></span> <a href="/storybooks-esperantujo/stories/ko">korea</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nivelo"><img class="cover-icon" src="/storybooks-esperantujo/css/level.svg" alt="Nivelo"></span> <a href="/storybooks-esperantujo/stories/ko/level3">3-a nivelo</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegi rakonton"><img class="cover-icon" src="/storybooks-esperantujo/css/speaker.svg" alt="Laŭtlegi la tutan rakonton"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/ko/0315/ko-0315_sakima.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Aŭtomate ludi la rakonton (beta - nur labortable)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Aŭtomate ludi la rakonton" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Verkita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/pencil.svg" alt="Verkita de"></span> Ursula Nafula</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustrita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/art.svg" alt="Ilustrita de"></span> Peris Wachuka</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Tradukita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/global.svg" alt="Tradukita de"></span> Jong Yong Park</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/megaphone.svg" alt="Laŭtlegita de"></span> Scarlet Kim</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lingvo"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/language.svg" alt="Lingvo"></span> <a href="/storybooks-esperantujo/stories/ko">korea</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nivelo"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/level.svg" alt="Nivelo"></span> <a href="/storybooks-esperantujo/stories/ko/level3">3-a nivelo</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegi rakonton"><img class="cover-icon cover-icon-audio" src="/storybooks-esperantujo/css/speaker.svg" alt="Laŭtlegi la tutan rakonton"></span> <audio id="audioplayer" controls><source src="/0315/ko-0315_sakima.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Aŭtomate ludi la rakonton (beta - nur labortable)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Aŭtomate ludi la rakonton" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -144,7 +145,7 @@
 	Kiam Sakima havis tri jarojn, li malsanis kaj perdis sian vidon. Sakima estis talentplena knabo.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Quand Sakima avait trois ans, il est devenu malade et perdu sa vue. Sakima était un garçon avec beaucoup de talent.
+	Quand Sakima avait trois ans, il est tombé malade et a perdu la vue. Sakima était un garçon avec beaucoup de talent.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -202,7 +203,7 @@
 	La gepatroj de Sakima laboris ĉe la domo de la riĉulo. Ili eliris la hejmon frue matene kaj revenis malfrue vespere. Sakima estis lasita kun sia fratineto.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Les parents de Sakima travaillaient chez l’homme riche. Ils quittaient leur maison tôt le matin et revenaient tard le soir. Sakima restaient seul chez eux avec sa petite sœur.
+	Les parents de Sakima travaillaient chez l’homme riche. Ils quittaient leur maison tôt le matin et revenaient tard le soir. Sakima restait seul chez eux avec sa petite sœur.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -318,7 +319,7 @@
 	“Ĉu vi povas kanti ĝin ree kaj ree, Sakima?” lia fratino petis lin. Sakima do akceptis kaj kantis ĝin ree kaj ree.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	« Peux-tu la chanter encore et encore, Sakima? » sa sœur le suppliait. Sakima acceptait et la chantait encore et encore.
+	« Peux-tu la chanter encore et encore, Sakima? » le suppliait sa sœur. Sakima acceptait et la chantait encore et encore.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -376,7 +377,7 @@
 	“Kio ne ĝustas, patrino, patro?” Sakima demandis. Sakima eklernis ke la filo de la riĉulo mankis. La viro estis tre malĝoja kaj soleca.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	« Qu’est-ce qu’il y a, maman et papa? » Sakima demanda. Sakima apprit que le fils de l’homme riche était disparu. L’homme était très triste et seul.
+	« Qu’est-ce qu’il y a, maman et papa? » Sakima demanda. Sakima apprit que le fils de l’homme riche avait disparu. L’homme était très triste et seul.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -405,7 +406,7 @@
 	“Mi povas kanti por li. Li eble feliĉos denove,” Sakima diris al siaj gepatroj. Sed siaj gepatroj malakceptis lin. “Li estas tre riĉa. Vi nur estas blinda knabo. Ĉu vi kredas ke via kanto povos helpi lin?”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	« Je peux chanter pour lui. Il redeviendra peut-être heureux, » Sakima dit à ses parents. Mes ses parents rejetèrent l’idée. « Il est très riche. Tu es seulement un garçon aveugle. Penses-tu vraiment que ta chanson l’aidera? »
+	« Je peux chanter pour lui. Il redeviendra peut-être heureux, » dit Sakima à ses parents. Mais ses parents rejetèrent l’idée. « Il est très riche. Tu es seulement un garçon aveugle. Penses-tu vraiment que ta chanson l’aidera? »
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -492,7 +493,7 @@
 	Li staris sub granda fenestro kaj ekkantis sian plej ŝatatan kanton. Malrapide la kapo de la riĉulo ekaperis tra la granda fenestro.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Il se tint sous une grande fenêtre et commença à chanter sa chanson préférée. Lentement, la tête de l’homme riche apparu à travers la grande fenêtre.
+	Il se tint sous une grande fenêtre et commença à chanter sa chanson préférée. Lentement, la tête de l’homme riche apparu à la grande fenêtre.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -550,7 +551,7 @@
 	Sakima finis la kantadon kaj turniĝis por foriri. Sed la riĉulo rapidis ekstere kaj diris, “Mi petas, kantu denove.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Sakima termina de chanter sa chanson et s’apprêtait à partir. Mais l’homme riche sorti en vitesse et dit, « S’il te plait, chante encore. »
+	Sakima termina de chanter sa chanson et s’apprêtait à partir. Mais l’homme riche sorti en vitesse et dit, « S’il te plaît, chante encore. »
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -579,7 +580,7 @@
 	Ĝuste tiumomente du viroj venis portante iun sur homportilo. Ili trovis la filon de la riĉulo batitan kaj forlasitan sur la flanko de la vojo.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	À ce moment, deux hommes sont venus en apportant quelqu’un sur une civière. Ils avaient trouvé le fils de l’homme riche tabassé et abandonné sur le bord de la route.
+	À ce moment, deux hommes sont arrivés en portant quelqu’un sur une civière. Ils avaient trouvé le fils de l’homme riche tabassé et abandonné sur le bord de la route.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -608,7 +609,7 @@
 	La riĉulo tiel ĝojis revidi sian filon. Li rekompencis Sakima por konsili lin. Li kunprenis sian filon kaj Sakima al la malsanulejo por regajnigi la vidon de Sakima.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	L’homme riche fut tellement content de revoir son fils. Il récompensa Sakima pour l’avoir consolé. Il emmena les deux garçons à l’hôpital pour que Sakima puisse retrouver sa vue.
+	L’homme riche fut tellement content de revoir son fils. Il récompensa Sakima de l’avoir consolé. Il emmena les deux garçons à l’hôpital pour que Sakima puisse retrouver la vue.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -634,7 +635,7 @@
 		<h5>Laŭtlegita de: Scarlet Kim</h5>
 		<h5>Lingvo: <a href="/storybooks-esperantujo/stories/ko">korea</a></h5>
 		<h5><a href="/storybooks-esperantujo/stories/ko/level3">3-a nivelo</a></h5>
-		<h5>Fonto: <a href="https://africanstorybook.org/stories/13244" target="_blank">Sakima's song</a> el la <a href="https://africanstorybook.org/">Afrika Rakontlibro</a></h5>
+		<h5>Fonto: <a href="https://africanstorybook.org/reader.php?id=13244" target="_blank">Sakima's song</a> el la <a href="https://africanstorybook.org/">Afrika Rakontlibro</a></h5>
 
 		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.eo" target="_blank"><img alt="Krea Komunaĵo Permesilo" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Ĉi-tiu verko estas libere disponebla laŭ la <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.eo" target="_blank">Atribuite 4.0 Internacia Permesilo de la Krea Komunaĵo</a>.</div>
 

@@ -16,6 +16,7 @@
 	<meta name="description" content="Rakontoj por Esperantujo is designed specifically for teachers, parents, and community members. It makes 40 stories from the African Storybook available in Esperanto as well as the major national, immigrant and refugee languages of the world, with stories in Arabic, French, German, Italian, Persian, Polish, Portuguese, Punjabi, Spanish, Tagalog, and Urdu, among others.
 ">
 	<link rel="stylesheet" href="/storybooks-esperantujo/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-esperantujo/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-esperantujo/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-esperantujo/stories/fr/0141/">
 	<link rel="alternate" type="application/rss+xml" title="Rakontoj por Esperantujo" href="/storybooks-esperantujo">
@@ -88,18 +89,18 @@
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/fr/0141/mp3/01.mp3"></audio>
+			<audio id="audio01" onended="resetbutton('01')" src="/storybooks-esperantujo/audio/fr/0141/mp3/01.mp3"></audio>
 			<button onclick="switchlang('fr,eo','eo,fr,fr')" class="btn btn-lg lang-primary" title="Ŝalti inter franca kaj Esperanto">eo</button>
 			<button style="display:none" onclick="switchlang('fr,fr','eo,fr,fr')" class="btn btn-lg lang-secondary" title="Ŝalti inter franca kaj franca">fr</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Verkita de"><img class="cover-icon" src="/storybooks-esperantujo/css/pencil.svg" alt="Verkita de"></span> Winny Asara</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustrita de"><img class="cover-icon" src="/storybooks-esperantujo/css/art.svg" alt="Ilustrita de"></span> Magriet Brink</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Tradukita de"><img class="cover-icon" src="/storybooks-esperantujo/css/global.svg" alt="Tradukita de"></span> Isabelle Duston, Véronique Biddau</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegita de"><img class="cover-icon" src="/storybooks-esperantujo/css/megaphone.svg" alt="Laŭtlegita de"></span> Alexandra Danahy</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lingvo"><img class="cover-icon" src="/storybooks-esperantujo/css/language.svg" alt="Lingvo"></span> <a href="/storybooks-esperantujo/stories/fr">franca</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nivelo"><img class="cover-icon" src="/storybooks-esperantujo/css/level.svg" alt="Nivelo"></span> <a href="/storybooks-esperantujo/stories/fr/level3">3-a nivelo</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegi rakonton"><img class="cover-icon" src="/storybooks-esperantujo/css/speaker.svg" alt="Laŭtlegi la tutan rakonton"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fr/0141/fr-0141_chicken.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Aŭtomate ludi la rakonton (beta - nur labortable)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Aŭtomate ludi la rakonton" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Verkita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/pencil.svg" alt="Verkita de"></span> Winny Asara</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustrita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/art.svg" alt="Ilustrita de"></span> Magriet Brink</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Tradukita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/global.svg" alt="Tradukita de"></span> Isabelle Duston, Véronique Biddau</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/megaphone.svg" alt="Laŭtlegita de"></span> Monique Bournot-Trites</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lingvo"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/language.svg" alt="Lingvo"></span> <a href="/storybooks-esperantujo/stories/fr">franca</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nivelo"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/level.svg" alt="Nivelo"></span> <a href="/storybooks-esperantujo/stories/fr/level3">3-a nivelo</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegi rakonton"><img class="cover-icon cover-icon-audio" src="/storybooks-esperantujo/css/speaker.svg" alt="Laŭtlegi la tutan rakonton"></span> <audio id="audioplayer" controls><source src="/0141/fr-0141_chicken.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Aŭtomate ludi la rakonton (beta - nur labortable)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Aŭtomate ludi la rakonton" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -108,24 +109,14 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0141/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	La poule et le millepatte étaient
-amis. Mais ils étaient toujours en
-compétition l’un contre l’autre. Un
-jour, ils décidèrent de jouer au
-football pour voir qui était le
-meilleur joueur.
+	La poule et le millepatte étaient amis. Mais ils étaient toujours en compétition l’un contre l’autre. Un jour, ils décidèrent de jouer au football pour voir qui était le meilleur joueur.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Koko kaj Milpiedulo estis amikoj. Sed ili ĉiam konkuris unu kontraŭ la alia. Iun tagon ili decidis ludi futbalon por vidi, kiu estis la plej bona ludanto.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	La poule et le millepatte étaient
-amis. Mais ils étaient toujours en
-compétition l’un contre l’autre. Un
-jour, ils décidèrent de jouer au
-football pour voir qui était le
-meilleur joueur.
+	La poule et le millepatte étaient amis. Mais ils étaient toujours en compétition l’un contre l’autre. Un jour, ils décidèrent de jouer au football pour voir qui était le meilleur joueur.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -147,28 +138,14 @@ meilleur joueur.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0141/03.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	Ils allèrent au terrain de football et
-commencèrent à jouer. La poule
-était rapide, mais le millepatte était
-encore plus rapide. La poule
-envoyait le ballon loin, mais le
-millepatte l’envoyait encore plus
-loin. La poule commençait à être de
-mauvaise humeur.
+	Ils allèrent au terrain de football et commencèrent à jouer. La poule était rapide, mais le millepatte était encore plus rapide. La poule envoyait le ballon loin, mais le millepatte l’envoyait encore plus loin. La poule commençait à être de mauvaise humeur.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Ili iris al la ludkampo kaj ekludis. Koko estis rapida, sed Milpiedulo estis pli rapida. Koko piedbatis malproksime, sed Milpiedulo piedbatis pli malproksime. Koko eksentis sin malkontentan.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Ils allèrent au terrain de football et
-commencèrent à jouer. La poule
-était rapide, mais le millepatte était
-encore plus rapide. La poule
-envoyait le ballon loin, mais le
-millepatte l’envoyait encore plus
-loin. La poule commençait à être de
-mauvaise humeur.
+	Ils allèrent au terrain de football et commencèrent à jouer. La poule était rapide, mais le millepatte était encore plus rapide. La poule envoyait le ballon loin, mais le millepatte l’envoyait encore plus loin. La poule commençait à être de mauvaise humeur.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -190,22 +167,14 @@ mauvaise humeur.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0141/04.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	Ils décidèrent de tirer des pénaltys.
-Au début, le millepatte était gardien
-de but. La poule marqua un seul
-but. Puis ce fut au tour de la poule
-d’être le gardien de but.
+	Ils décidèrent de faire des tirs au but. Au début, le millepatte était gardien de but. La poule marqua un seul but. Puis ce fut au tour de la poule d’être le gardien de but.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Ili decidis ludi punŝoton. Unue, Milpiedulo estis la golulo. Koko gajnis nur unu golon. Tiam estis la vico de Koko gardi la golejon.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Ils décidèrent de tirer des pénaltys.
-Au début, le millepatte était gardien
-de but. La poule marqua un seul
-but. Puis ce fut au tour de la poule
-d’être le gardien de but.
+	Ils décidèrent de faire des tirs au but. Au début, le millepatte était gardien de but. La poule marqua un seul but. Puis ce fut au tour de la poule d’être le gardien de but.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -227,22 +196,14 @@ d’être le gardien de but.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0141/05.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	Le millepatte tira dans le ballon et
-marqua. Le millepatte dribbla avec
-le ballon et marqua. Le millepatte fit
-une tête avec le ballon et marqua.
-Le millepatte marqua cinq buts.
+	Le millepatte tira dans le ballon et marqua. Le millepatte dribbla avec le ballon et marqua. Le millepatte fit une tête avec le ballon et marqua. Le millepatte marqua cinq buts.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Milpiedulo piedbatis la pilkon kaj faris golon. Milpiedulo piedbatis la pilkon kaj faris golon. Milpiedulo kapbatis la pilkon kaj faris golon. Milpiedulo gajnis kvin golojn.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Le millepatte tira dans le ballon et
-marqua. Le millepatte dribbla avec
-le ballon et marqua. Le millepatte fit
-une tête avec le ballon et marqua.
-Le millepatte marqua cinq buts.
+	Le millepatte tira dans le ballon et marqua. Le millepatte dribbla avec le ballon et marqua. Le millepatte fit une tête avec le ballon et marqua. Le millepatte marqua cinq buts.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -264,22 +225,14 @@ Le millepatte marqua cinq buts.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0141/06.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	La poule était furieuse d’avoir
-perdu. C’était était une très
-mauvaise perdante. Le millepatte
-commença à rire parce que son
-amie faisait tout une histoire.
+	La poule était furieuse d’avoir perdu. C’était une très mauvaise perdante. Le millepatte commença à rire parce que son amie en faisait toute une histoire.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Koko koleregis, ĉar ŝi perdis la ludon. Ŝi estis tre malbona perdanto. Milpiedulo ekridis, ĉar lia amiko faris tiom da bruo pri tio.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	La poule était furieuse d’avoir
-perdu. C’était était une très
-mauvaise perdante. Le millepatte
-commença à rire parce que son
-amie faisait tout une histoire.
+	La poule était furieuse d’avoir perdu. C’était une très mauvaise perdante. Le millepatte commença à rire parce que son amie en faisait toute une histoire.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -301,18 +254,14 @@ amie faisait tout une histoire.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0141/07.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	La poule était tellement en colère
-qu’elle ouvrit un large bec et avala
-le millepatte.
+	La poule était tellement en colère qu’elle ouvrit tout grand son bec et avala le millepatte.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Koko tiel koleris ke ŝi larĝe malfermis la bekon kaj forglutis la milpiedulon.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	La poule était tellement en colère
-qu’elle ouvrit un large bec et avala
-le millepatte.
+	La poule était tellement en colère qu’elle ouvrit tout grand son bec et avala le millepatte.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -334,24 +283,14 @@ le millepatte.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0141/08.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	Alors que la poule rentrait à la
-maison, elle rencontra la maman
-millepatte. La maman millepatte
-demanda, «&nbsp;as-tu vu mon enfant&nbsp;?&nbsp;»
-La poule ne répondit pas.
-La maman millepatte était inquiète.
+	Alors que la poule rentrait à la maison, elle rencontra la maman millepatte. La maman millepatte demanda, «&nbsp;as-tu vu mon enfant&nbsp;?&nbsp;» La poule ne répondit pas. La maman millepatte était inquiète.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Dum Koko marŝis hejmen, ŝi renkontis Milpiedul-patrinon. Milpiedul-patrino demandis, “Ĉu vi vidis mian infanon?” Koko nenion diris. Milpiedul-patrino maltrankviliĝis.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Alors que la poule rentrait à la
-maison, elle rencontra la maman
-millepatte. La maman millepatte
-demanda, «&nbsp;as-tu vu mon enfant&nbsp;?&nbsp;»
-La poule ne répondit pas.
-La maman millepatte était inquiète.
+	Alors que la poule rentrait à la maison, elle rencontra la maman millepatte. La maman millepatte demanda, «&nbsp;as-tu vu mon enfant&nbsp;?&nbsp;» La poule ne répondit pas. La maman millepatte était inquiète.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -373,24 +312,14 @@ La maman millepatte était inquiète.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0141/09.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	Puis la maman millepatte entendit
-une petite voix. «&nbsp;Aide-moi maman&nbsp;!&nbsp;»
-Criait la voix. La maman millepatte
-regarda autour et écouta
-attentivement. La voix venait de
-l’intérieur de la poule.
+	Puis la maman millepatte entendit une petite voix. «&nbsp;Aide-moi maman&nbsp;!&nbsp;» criait la voix. La maman millepatte regarda autour et écouta attentivement. La voix venait de l’intérieur de la poule.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Tiam Milpiedul-patrino aŭdis voĉeton. “Helpu min, panjo!” kriis la voĉo. Milpiedul-patrino ĉirkaŭrigardis kaj aŭskultis atente. La voĉo elvenis ene de la koko.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Puis la maman millepatte entendit
-une petite voix. «&nbsp;Aide-moi maman&nbsp;!&nbsp;»
-Criait la voix. La maman millepatte
-regarda autour et écouta
-attentivement. La voix venait de
-l’intérieur de la poule.
+	Puis la maman millepatte entendit une petite voix. «&nbsp;Aide-moi maman&nbsp;!&nbsp;» criait la voix. La maman millepatte regarda autour et écouta attentivement. La voix venait de l’intérieur de la poule.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -412,24 +341,14 @@ l’intérieur de la poule.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0141/10.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	La maman millepatte s’écria «&nbsp;Utilise
-tes pouvoirs spéciaux mon enfant&nbsp;!&nbsp;»
-Les millepattes peuvent faire une
-mauvaise odeur et donner un
-mauvais goût. La poule commença
-à se sentir mal.
+	La maman millepatte s’écria «&nbsp;Utilise tes pouvoirs spéciaux mon enfant&nbsp;!&nbsp;» Les millepattes peuvent faire une mauvaise odeur et donner un mauvais goût. La poule commença à se sentir mal.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Milpiedul-patrino ekkriis, “Uzi vian specialan povon, mia infano!” La milpieduloj povas fari malbonan odoron kaj malbonan guston. Koko eksentis sin malsana.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	La maman millepatte s’écria «&nbsp;Utilise
-tes pouvoirs spéciaux mon enfant&nbsp;!&nbsp;»
-Les millepattes peuvent faire une
-mauvaise odeur et donner un
-mauvais goût. La poule commença
-à se sentir mal.
+	La maman millepatte s’écria «&nbsp;Utilise tes pouvoirs spéciaux mon enfant&nbsp;!&nbsp;» Les millepattes peuvent faire une mauvaise odeur et donner un mauvais goût. La poule commença à se sentir mal.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -451,20 +370,14 @@ mauvais goût. La poule commença
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0141/11.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	La poule fit un rot. Puis elle déglutit
-et cracha. Puis elle éternua et
-toussa. Et toussa. Le millepatte
-était dégoûtant&nbsp;!
+	La poule fit un rot. Puis elle déglutit et cracha. Puis elle éternua et toussa. Et toussa. Le millepatte était dégoûtant&nbsp;!
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Koko ruktis. Tiam ŝi glutis kaj kraĉis. Tiam ŝi ternis kaj tusis. Kaj tusis. La milpiedulo estis naŭzega!
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	La poule fit un rot. Puis elle déglutit
-et cracha. Puis elle éternua et
-toussa. Et toussa. Le millepatte
-était dégoûtant&nbsp;!
+	La poule fit un rot. Puis elle déglutit et cracha. Puis elle éternua et toussa. Et toussa. Le millepatte était dégoûtant&nbsp;!
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -486,22 +399,14 @@ toussa. Et toussa. Le millepatte
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0141/12.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	La poule toussa jusqu’à ce qu’elle
-recrache le millepatte qui était dans
-son estomac. La maman millepatte
-et son enfant rampèrent jusqu’à un
-arbre pour se cacher.
+	La poule toussa jusqu’à ce qu’elle recrache le millepatte qui était dans son estomac. La maman millepatte et son enfant rampèrent jusqu’à un arbre pour se cacher.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Koko tusis, ĝis ŝi eltusigis la milpiedulon kiu estis en ŝia stomako. Milpiedul-patrino kaj ŝia infano suprenrampis sur arbo kaj kaŝis sin.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	La poule toussa jusqu’à ce qu’elle
-recrache le millepatte qui était dans
-son estomac. La maman millepatte
-et son enfant rampèrent jusqu’à un
-arbre pour se cacher.
+	La poule toussa jusqu’à ce qu’elle recrache le millepatte qui était dans son estomac. La maman millepatte et son enfant rampèrent jusqu’à un arbre pour se cacher.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -523,16 +428,14 @@ arbre pour se cacher.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0141/13.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	Depuis ce temps, les poules et les
-millepattes sont ennemis.
+	Depuis ce temps, les poules et les millepattes sont ennemis.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Ekde tiam la kokoj kaj la milpieduloj estis malamikoj.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Depuis ce temps, les poules et les
-millepattes sont ennemis.
+	Depuis ce temps, les poules et les millepattes sont ennemis.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -555,10 +458,10 @@ millepattes sont ennemis.
 		<h5>Verkita de: Winny Asara</h5>
 		<h5>Ilustrita de: Magriet Brink</h5>
 		<h5>Tradukita de: Isabelle Duston, Véronique Biddau</h5>
-		<h5>Laŭtlegita de: Alexandra Danahy</h5>
+		<h5>Laŭtlegita de: Monique Bournot-Trites</h5>
 		<h5>Lingvo: <a href="/storybooks-esperantujo/stories/fr">franca</a></h5>
 		<h5><a href="/storybooks-esperantujo/stories/fr/level3">3-a nivelo</a></h5>
-		<h5>Fonto: <a href="https://africanstorybook.org/stories/9094" target="_blank">Chicken and Millipede</a> el la <a href="https://africanstorybook.org/">Afrika Rakontlibro</a></h5>
+		<h5>Fonto: <a href="https://africanstorybook.org/reader.php?id=9094" target="_blank">Chicken and Millipede</a> el la <a href="https://africanstorybook.org/">Afrika Rakontlibro</a></h5>
 
 		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.eo" target="_blank"><img alt="Krea Komunaĵo Permesilo" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Ĉi-tiu verko estas libere disponebla laŭ la <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.eo" target="_blank">Atribuite 3.0 Internacia Permesilo de la Krea Komunaĵo</a>.</div>
 
@@ -570,7 +473,7 @@ millepattes sont ennemis.
 			<label class="chip"><a href="/storybooks-esperantujo/stories/fr/0201/">L’enfant-âne</a></label>
 			<label class="chip"><a href="/storybooks-esperantujo/stories/fr/0315/">La chanson de Sakima</a></label>
 			<label class="chip"><a href="/storybooks-esperantujo/stories/fr/0006/">Anansi et la sagesse</a></label>
-			<label class="chip"><a href="/storybooks-esperantujo/stories/fr/0324/">Le jour que je quitta la maison pour la ville</a></label>
+			<label class="chip"><a href="/storybooks-esperantujo/stories/fr/0324/">Le jour où je quittai la maison pour la ville</a></label>
 			<label class="chip"><a href="/storybooks-esperantujo/stories/fr/0158/">Poule et Aigle</a></label>
 	</div>
 </div>

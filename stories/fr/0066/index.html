@@ -16,6 +16,7 @@
 	<meta name="description" content="Rakontoj por Esperantujo is designed specifically for teachers, parents, and community members. It makes 40 stories from the African Storybook available in Esperanto as well as the major national, immigrant and refugee languages of the world, with stories in Arabic, French, German, Italian, Persian, Polish, Portuguese, Punjabi, Spanish, Tagalog, and Urdu, among others.
 ">
 	<link rel="stylesheet" href="/storybooks-esperantujo/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-esperantujo/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-esperantujo/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-esperantujo/stories/fr/0066/">
 	<link rel="alternate" type="application/rss+xml" title="Rakontoj por Esperantujo" href="/storybooks-esperantujo">
@@ -88,18 +89,18 @@
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/fr/0066/mp3/01.mp3"></audio>
+			<audio id="audio01" onended="resetbutton('01')" src="/storybooks-esperantujo/audio/fr/0066/mp3/01.mp3"></audio>
 			<button onclick="switchlang('fr,eo','eo,fr,fr')" class="btn btn-lg lang-primary" title="Ŝalti inter franca kaj Esperanto">eo</button>
 			<button style="display:none" onclick="switchlang('fr,fr','eo,fr,fr')" class="btn btn-lg lang-secondary" title="Ŝalti inter franca kaj franca">fr</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Verkita de"><img class="cover-icon" src="/storybooks-esperantujo/css/pencil.svg" alt="Verkita de"></span> Tessa Welch</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustrita de"><img class="cover-icon" src="/storybooks-esperantujo/css/art.svg" alt="Ilustrita de"></span> Wiehan de Jager</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Tradukita de"><img class="cover-icon" src="/storybooks-esperantujo/css/global.svg" alt="Tradukita de"></span> Alexandra Danahy</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegita de"><img class="cover-icon" src="/storybooks-esperantujo/css/megaphone.svg" alt="Laŭtlegita de"></span> Alexandra Danahy</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lingvo"><img class="cover-icon" src="/storybooks-esperantujo/css/language.svg" alt="Lingvo"></span> <a href="/storybooks-esperantujo/stories/fr">franca</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nivelo"><img class="cover-icon" src="/storybooks-esperantujo/css/level.svg" alt="Nivelo"></span> <a href="/storybooks-esperantujo/stories/fr/level3">3-a nivelo</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegi rakonton"><img class="cover-icon" src="/storybooks-esperantujo/css/speaker.svg" alt="Laŭtlegi la tutan rakonton"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fr/0066/fr-0066_nozibele.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Aŭtomate ludi la rakonton (beta - nur labortable)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Aŭtomate ludi la rakonton" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Verkita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/pencil.svg" alt="Verkita de"></span> Tessa Welch</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustrita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/art.svg" alt="Ilustrita de"></span> Wiehan de Jager</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Tradukita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/global.svg" alt="Tradukita de"></span> Alexandra Danahy</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/megaphone.svg" alt="Laŭtlegita de"></span> Monique Bournot-Trites</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lingvo"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/language.svg" alt="Lingvo"></span> <a href="/storybooks-esperantujo/stories/fr">franca</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nivelo"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/level.svg" alt="Nivelo"></span> <a href="/storybooks-esperantujo/stories/fr/level3">3-a nivelo</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegi rakonton"><img class="cover-icon cover-icon-audio" src="/storybooks-esperantujo/css/speaker.svg" alt="Laŭtlegi la tutan rakonton"></span> <audio id="audioplayer" controls><source src="/0066/fr-0066_nozibele.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Aŭtomate ludi la rakonton (beta - nur labortable)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Aŭtomate ludi la rakonton" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -137,14 +138,14 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0066/03.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	C’était une journée très chaude, alors elles sont descendues à la rivière pour nager. Elles ont joué, éclaboussé et nagé dans l’eau.
+	C’était une journée très chaude, alors elles sont descendues à la rivière pour nager. Elles ont joué, fait des éclaboussoures et nagé dans l’eau.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Varmegis, do ili iris malsupren al la rivero por naĝi. Ili ludis kaj ŝprucis kaj naĝis en la akvo.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	C’était une journée très chaude, alors elles sont descendues à la rivière pour nager. Elles ont joué, éclaboussé et nagé dans l’eau.
+	C’était une journée très chaude, alors elles sont descendues à la rivière pour nager. Elles ont joué, fait des éclaboussoures et nagé dans l’eau.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -166,14 +167,14 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0066/04.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	Soudainement, elles se sont rendues compte qu’il était tard. Elles se sont dépêchées pour rentrer au village.
+	Soudainement, elles se sont rendu compte qu’il était tard. Elles se sont dépêchées de rentrer au village.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Subite ili ekkonsciis ke estis jam malfrue. Ili rapidis hejmen al la vilaĝo.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Soudainement, elles se sont rendues compte qu’il était tard. Elles se sont dépêchées pour rentrer au village.
+	Soudainement, elles se sont rendu compte qu’il était tard. Elles se sont dépêchées de rentrer au village.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -195,14 +196,14 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0066/05.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	Mais quand elles étaient presque rendues chez elles, Nozibele mit sa main sur son cou. Elle avait oublié son collier&nbsp;! «&nbsp;S’il vous plaît, retourner avec moi&nbsp;!&nbsp;» elle supplia ses amies. Mais ses amies lui dirent que c’était trop tard.
+	Mais quand elles étaient presque arrivées chez elles, Nozibele mit sa main à son cou. Elle avait oublié son collier&nbsp;! «&nbsp;S’il vous plaît, retournez avec moi&nbsp;!&nbsp;» supplia-t-elle ses amies. Mais ses amies lui dirent que c’était trop tard.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Kiam ili preskaŭ alvenis hejmen, Nozibele metis sian manon sur la kolon. Ŝia kolĉeno estis forgesita! “Mi petas, revenu kun mi!” ŝi petis siajn amikojn. Sed ŝiaj amikoj diris ke estis jam tro malfrua.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Mais quand elles étaient presque rendues chez elles, Nozibele mit sa main sur son cou. Elle avait oublié son collier&nbsp;! «&nbsp;S’il vous plaît, retourner avec moi&nbsp;!&nbsp;» elle supplia ses amies. Mais ses amies lui dirent que c’était trop tard.
+	Mais quand elles étaient presque arrivées chez elles, Nozibele mit sa main à son cou. Elle avait oublié son collier&nbsp;! «&nbsp;S’il vous plaît, retournez avec moi&nbsp;!&nbsp;» supplia-t-elle ses amies. Mais ses amies lui dirent que c’était trop tard.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -224,14 +225,14 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0066/06.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	Ainsi Nozibele retourna à la rivière toute seule. Elle trouva son collier et se dépêcha pour rentrer chez elle. Mais elle se perdit dans le noir.
+	Ainsi Nozibele retourna à la rivière toute seule. Elle trouva son collier et se dépêcha de rentrer chez elle. Mais elle se perdit dans le noir.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Do Nozibele reiris sole al la rivero. Ŝi trovis la kolĉenon kaj rapidis hejmen. Sed ŝi perdiĝis en la mallumo.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Ainsi Nozibele retourna à la rivière toute seule. Elle trouva son collier et se dépêcha pour rentrer chez elle. Mais elle se perdit dans le noir.
+	Ainsi Nozibele retourna à la rivière toute seule. Elle trouva son collier et se dépêcha de rentrer chez elle. Mais elle se perdit dans le noir.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -282,14 +283,14 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0066/08.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	À sa surprise, un chien ouvra la porte et dit, «&nbsp;Qu’est-ce que tu veux&nbsp;?&nbsp;» «&nbsp;Je suis perdue et j’ai besoin d’un endroit pour dormir,&nbsp;» dit Nozibele. «&nbsp;Rentre, sinon je te mords&nbsp;!&nbsp;» dit le chien. Alors, Nozibele rentra.
+	À sa surprise, un chien ouvrit la porte et dit, «&nbsp;Qu’est-ce que tu veux&nbsp;?&nbsp;» «&nbsp;Je suis perdue et j’ai besoin d’un endroit pour dormir,&nbsp;» dit Nozibele. «&nbsp;Rentre, sinon je te mords&nbsp;!&nbsp;» dit le chien. Alors, Nozibele rentra.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Surprize al ŝi, hundo malfermis la pordon kaj diris, “Kion vi volas?” “Mi perdiĝas kaj bezonas lokon por dormi,” diris Nozibele. “Eniru, alie mi mordos vin!” diris la hundo. Do Nozibele eniris.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	À sa surprise, un chien ouvra la porte et dit, «&nbsp;Qu’est-ce que tu veux&nbsp;?&nbsp;» «&nbsp;Je suis perdue et j’ai besoin d’un endroit pour dormir,&nbsp;» dit Nozibele. «&nbsp;Rentre, sinon je te mords&nbsp;!&nbsp;» dit le chien. Alors, Nozibele rentra.
+	À sa surprise, un chien ouvrit la porte et dit, «&nbsp;Qu’est-ce que tu veux&nbsp;?&nbsp;» «&nbsp;Je suis perdue et j’ai besoin d’un endroit pour dormir,&nbsp;» dit Nozibele. «&nbsp;Rentre, sinon je te mords&nbsp;!&nbsp;» dit le chien. Alors, Nozibele rentra.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -311,14 +312,14 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0066/09.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	Puis le chien dit, «&nbsp;Fais-moi à manger&nbsp;!&nbsp;» «&nbsp;Mais je n’ai jamais cuisiné pour un chien auparavant,&nbsp;» elle répondit. «&nbsp;Cuisine, sinon je te mords&nbsp;!&nbsp;» dit le chien. Donc, Nozibele prépara de la nourriture pour le chien.
+	Puis le chien dit, «&nbsp;Fais-moi à manger&nbsp;!&nbsp;» «&nbsp;Mais je n’ai jamais cuisiné pour un chien auparavant,&nbsp;» répondit-elle. «&nbsp;Cuisine, sinon je te mords&nbsp;!&nbsp;» dit le chien. Donc, Nozibele prépara de la nourriture pour le chien.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Tiam la hundo diris, “Kuiru por mi!” “Sed mi neniam kuiris por hundo antaŭe,” ŝi respondis. “Kuiru, alie mi mordos vin!” diris la hundo. Do Nozibele kuiris iom da manĝaĵo por la hundo.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Puis le chien dit, «&nbsp;Fais-moi à manger&nbsp;!&nbsp;» «&nbsp;Mais je n’ai jamais cuisiné pour un chien auparavant,&nbsp;» elle répondit. «&nbsp;Cuisine, sinon je te mords&nbsp;!&nbsp;» dit le chien. Donc, Nozibele prépara de la nourriture pour le chien.
+	Puis le chien dit, «&nbsp;Fais-moi à manger&nbsp;!&nbsp;» «&nbsp;Mais je n’ai jamais cuisiné pour un chien auparavant,&nbsp;» répondit-elle. «&nbsp;Cuisine, sinon je te mords&nbsp;!&nbsp;» dit le chien. Donc, Nozibele prépara de la nourriture pour le chien.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -369,14 +370,14 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0066/11.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	Chaque jour, elle devait cuisiner et balayer et laver pour le chien. Puis un jour le chien dit, «&nbsp;Nozibele, aujourd’hui je dois rendre visite à des amis. Balaye la maison, fais à manger et lave mes choses avant que je revienne.&nbsp;»
+	Chaque jour, elle devait cuisiner et balayer et laver pour le chien. Puis un jour le chien dit, «&nbsp;Nozibele, aujourd’hui je dois rendre visite à des amis. Balaye la maison, fais à manger et lave mes affaires avant mon retour.&nbsp;»
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Ĉiutage ŝi devis kuiri kaj balai kaj lavi por la hundo. Tiam, iun tagon, la hundo diris, “Nozibele, hodiaŭ mi devas viziti iujn amikojn. Balau la domon, kuiru la manĝaĵon kaj lavu miajn vestaĵojn antaŭ ol mi reiras.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Chaque jour, elle devait cuisiner et balayer et laver pour le chien. Puis un jour le chien dit, «&nbsp;Nozibele, aujourd’hui je dois rendre visite à des amis. Balaye la maison, fais à manger et lave mes choses avant que je revienne.&nbsp;»
+	Chaque jour, elle devait cuisiner et balayer et laver pour le chien. Puis un jour le chien dit, «&nbsp;Nozibele, aujourd’hui je dois rendre visite à des amis. Balaye la maison, fais à manger et lave mes affaires avant mon retour.&nbsp;»
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -427,14 +428,14 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0066/13.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	Quand le chien revient, il chercha Nozibele. «&nbsp;Nozibele, où es-tu&nbsp;?&nbsp;» il cria. «&nbsp;Je suis ici, sous le lit,&nbsp;» dit le premier cheveu. «&nbsp;Je suis ici, derrière la porte,&nbsp;» dit le deuxième cheveu. «&nbsp;Je suis ici, dans le kraal,&nbsp;» dit le troisième cheveu.
+	Quand le chien revint, il chercha Nozibele. «&nbsp;Nozibele, où es-tu&nbsp;?&nbsp;» cria-t-il. «&nbsp;Je suis ici, sous le lit,&nbsp;» dit le premier cheveu. «&nbsp;Je suis ici, derrière la porte,&nbsp;» dit le deuxième cheveu. «&nbsp;Je suis ici, dans le kraal,&nbsp;» dit le troisième cheveu.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Kiam la hundo revenis, li serĉis Nozibele. “Nozibele, kie vi estas?” li kriis. “Mi estas ĉi tie, sub la lito,” diris la unua haro. “Mi estas ĉi tie, malantaŭ la pordo,” diris la dua haro. “Mi estas ĉi tie, en la ĉirkaŭbarejo,” diris la tria haro.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Quand le chien revient, il chercha Nozibele. «&nbsp;Nozibele, où es-tu&nbsp;?&nbsp;» il cria. «&nbsp;Je suis ici, sous le lit,&nbsp;» dit le premier cheveu. «&nbsp;Je suis ici, derrière la porte,&nbsp;» dit le deuxième cheveu. «&nbsp;Je suis ici, dans le kraal,&nbsp;» dit le troisième cheveu.
+	Quand le chien revint, il chercha Nozibele. «&nbsp;Nozibele, où es-tu&nbsp;?&nbsp;» cria-t-il. «&nbsp;Je suis ici, sous le lit,&nbsp;» dit le premier cheveu. «&nbsp;Je suis ici, derrière la porte,&nbsp;» dit le deuxième cheveu. «&nbsp;Je suis ici, dans le kraal,&nbsp;» dit le troisième cheveu.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -456,14 +457,14 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0066/14.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	Ainsi le chien sut que Nozibele l’avait trompé. Il courut et courut jusqu’au village. Mais les frères de Nozibele l’attendaient avec des gros bâtons. Le chien vira de bord et s’enfuit et il n’a pas été vu depuis.
+	Ainsi le chien sut que Nozibele l’avait trompé. Il courut et courut jusqu’au village. Mais les frères de Nozibele l’attendaient avec des gros bâtons. Le chien vira de bord et s’enfuit et on ne l’a pas revu depuis.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	Tiam ekkonsciis la hundo ke Nozibele trompis lin. Do li kuris kaj kuris la tutan vojon al la vilaĝo. Sed la fratoj de Nozibele atendis tie kun grandaj bastonoj. La hundo turnis sin kaj forkuris, kaj poste ĝi ne revidiĝis.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Ainsi le chien sut que Nozibele l’avait trompé. Il courut et courut jusqu’au village. Mais les frères de Nozibele l’attendaient avec des gros bâtons. Le chien vira de bord et s’enfuit et il n’a pas été vu depuis.
+	Ainsi le chien sut que Nozibele l’avait trompé. Il courut et courut jusqu’au village. Mais les frères de Nozibele l’attendaient avec des gros bâtons. Le chien vira de bord et s’enfuit et on ne l’a pas revu depuis.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -486,10 +487,10 @@
 		<h5>Verkita de: Tessa Welch</h5>
 		<h5>Ilustrita de: Wiehan de Jager</h5>
 		<h5>Tradukita de: Alexandra Danahy</h5>
-		<h5>Laŭtlegita de: Alexandra Danahy</h5>
+		<h5>Laŭtlegita de: Monique Bournot-Trites</h5>
 		<h5>Lingvo: <a href="/storybooks-esperantujo/stories/fr">franca</a></h5>
 		<h5><a href="/storybooks-esperantujo/stories/fr/level3">3-a nivelo</a></h5>
-		<h5>Fonto: <a href="https://africanstorybook.org/stories/1880" target="_blank">Nozibele and the three hairs</a> el la <a href="https://africanstorybook.org/">Afrika Rakontlibro</a></h5>
+		<h5>Fonto: <a href="https://africanstorybook.org/reader.php?id=1880" target="_blank">Nozibele and the three hairs</a> el la <a href="https://africanstorybook.org/">Afrika Rakontlibro</a></h5>
 
 		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.eo" target="_blank"><img alt="Krea Komunaĵo Permesilo" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Ĉi-tiu verko estas libere disponebla laŭ la <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.eo" target="_blank">Atribuite 3.0 Internacia Permesilo de la Krea Komunaĵo</a>.</div>
 
@@ -501,7 +502,7 @@
 			<label class="chip"><a href="/storybooks-esperantujo/stories/fr/0201/">L’enfant-âne</a></label>
 			<label class="chip"><a href="/storybooks-esperantujo/stories/fr/0315/">La chanson de Sakima</a></label>
 			<label class="chip"><a href="/storybooks-esperantujo/stories/fr/0006/">Anansi et la sagesse</a></label>
-			<label class="chip"><a href="/storybooks-esperantujo/stories/fr/0324/">Le jour que je quitta la maison pour la ville</a></label>
+			<label class="chip"><a href="/storybooks-esperantujo/stories/fr/0324/">Le jour où je quittai la maison pour la ville</a></label>
 			<label class="chip"><a href="/storybooks-esperantujo/stories/fr/0158/">Poule et Aigle</a></label>
 	</div>
 </div>

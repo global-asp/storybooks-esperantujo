@@ -16,6 +16,7 @@
 	<meta name="description" content="Rakontoj por Esperantujo is designed specifically for teachers, parents, and community members. It makes 40 stories from the African Storybook available in Esperanto as well as the major national, immigrant and refugee languages of the world, with stories in Arabic, French, German, Italian, Persian, Polish, Portuguese, Punjabi, Spanish, Tagalog, and Urdu, among others.
 ">
 	<link rel="stylesheet" href="/storybooks-esperantujo/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-esperantujo/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-esperantujo/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-esperantujo/stories/eo/0342/">
 	<link rel="alternate" type="application/rss+xml" title="Rakontoj por Esperantujo" href="/storybooks-esperantujo">
@@ -87,18 +88,17 @@
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/eo/0342/mp3/01.mp3"></audio>
+			<button class="btn btn-lg disabled" id="playbutton01" onclick="playpause('01')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 			<button onclick="switchlang('eo,eo','eo,fr,eo')" class="btn btn-lg lang-primary" title="Ŝalti inter Esperanto kaj Esperanto">eo</button>
 			<button style="display:none" onclick="switchlang('eo,fr','eo,fr,eo')" class="btn btn-lg lang-secondary" title="Ŝalti inter Esperanto kaj franca">fr</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Verkita de"><img class="cover-icon" src="/storybooks-esperantujo/css/pencil.svg" alt="Verkita de"></span> Adelheid Marie Bwire</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustrita de"><img class="cover-icon" src="/storybooks-esperantujo/css/art.svg" alt="Ilustrita de"></span> Melany Pietersen</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Tradukita de"><img class="cover-icon" src="/storybooks-esperantujo/css/global.svg" alt="Tradukita de"></span> dohliam</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lingvo"><img class="cover-icon" src="/storybooks-esperantujo/css/language.svg" alt="Lingvo"></span> <a href="/storybooks-esperantujo/stories/eo">Esperanto</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nivelo"><img class="cover-icon" src="/storybooks-esperantujo/css/level.svg" alt="Nivelo"></span> <a href="/storybooks-esperantujo/stories/eo/level2">2-a nivelo</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegi rakonton"><img class="cover-icon" src="/storybooks-esperantujo/css/speaker.svg" alt="Laŭtlegi la tutan rakonton"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/eo/0342/eo-0342_punishment.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Aŭtomate ludi la rakonton (beta - nur labortable)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Aŭtomate ludi la rakonton" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Verkita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/pencil.svg" alt="Verkita de"></span> Adelheid Marie Bwire</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustrita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/art.svg" alt="Ilustrita de"></span> Melany Pietersen</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Tradukita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/global.svg" alt="Tradukita de"></span> dohliam</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lingvo"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/language.svg" alt="Lingvo"></span> <a href="/storybooks-esperantujo/stories/eo">Esperanto</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nivelo"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/level.svg" alt="Nivelo"></span> <a href="/storybooks-esperantujo/stories/eo/level2">2-a nivelo</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegi rakonton"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/speaker.svg" alt="Laŭtlegi la tutan rakonton"></span> <span class="cover_msg">Sonregistraĵo por tiu ĉi rakonto ankoraŭ mankas.</span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Aŭtomate ludi la rakonton (beta - nur labortable)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Aŭtomate ludi la rakonton" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -114,16 +114,13 @@
 	Iun tagon panjo aĉetis multe da fruktoj.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Un jour, Maman a
-ramassé beaucoup de
-fruits.
+	Un jour, Maman a ramassé beaucoup de fruits.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/audio/eo/0342/mp3/02.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton02" onclick="playpause('02')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('eo,eo','eo,fr,eo')" class="btn btn-lg lang-primary" title="Ŝalti inter Esperanto kaj Esperanto">eo</button>
@@ -145,18 +142,13 @@ fruits.
 	“Kiam ni povas manĝi la fruktojn?” ni demandas. “Ni manĝos la fruktojn ĉi-vespere,” diras panjo.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Nous lui demandons : «
-Pouvons-nous manger
-des fruits ? »
-Maman répond : « Nous
-les mangerons ce soir. »
+	Nous lui demandons : « Pouvons-nous manger des fruits ? » Maman répond : « Nous les mangerons ce soir. »
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/audio/eo/0342/mp3/03.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton03" onclick="playpause('03')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('eo,eo','eo,fr,eo')" class="btn btn-lg lang-primary" title="Ŝalti inter Esperanto kaj Esperanto">eo</button>
@@ -178,17 +170,13 @@ les mangerons ce soir. »
 	Mia frato Rahim glutemas. Li gustumas ĉiun frukton. Li manĝas multe da frukto.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Mon frère Rahim est
-glouton.
-Il goûte tous les fruits.
-Il en mange beaucoup.
+	Mon frère Rahim est glouton. Il goûte tous les fruits. Il en mange beaucoup.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/audio/eo/0342/mp3/04.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton04" onclick="playpause('04')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('eo,eo','eo,fr,eo')" class="btn btn-lg lang-primary" title="Ŝalti inter Esperanto kaj Esperanto">eo</button>
@@ -210,19 +198,13 @@ Il en mange beaucoup.
 	“Rigardu, kion faris Rahim!” mia frateto ekkriis. “Rahim petolemas kaj egoistas,” diras mi.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	« Regarde ce qu’a fait
-Rahim ! », crie mon
-petit frère.
-Et moi, je dis : « Rahim
-est méchant et égoïste.
-»
+	« Regarde ce qu’a fait Rahim ! », crie mon petit frère. Et moi, je dis : « Rahim est méchant et égoïste. »
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/audio/eo/0342/mp3/05.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton05" onclick="playpause('05')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('eo,eo','eo,fr,eo')" class="btn btn-lg lang-primary" title="Ŝalti inter Esperanto kaj Esperanto">eo</button>
@@ -244,15 +226,13 @@ est méchant et égoïste.
 	Panjo koleras kontraŭ Rahim.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Maman est fâchée
-contre Rahim.
+	Maman est fâchée contre Rahim.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/audio/eo/0342/mp3/06.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton06" onclick="playpause('06')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('eo,eo','eo,fr,eo')" class="btn btn-lg lang-primary" title="Ŝalti inter Esperanto kaj Esperanto">eo</button>
@@ -274,18 +254,13 @@ contre Rahim.
 	Ni ankaŭ koleras kontraŭ Rahim. Sed Rahim ne bedaŭras.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Nous aussi, nous
-sommes fâchés contre
-Rahim.
-Mais Rahim ne regrette
-rien.
+	Nous aussi, nous sommes fâchés contre Rahim. Mais Rahim ne regrette rien.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text08" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/audio/eo/0342/mp3/07.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton07" onclick="playpause('07')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('eo,eo','eo,fr,eo')" class="btn btn-lg lang-primary" title="Ŝalti inter Esperanto kaj Esperanto">eo</button>
@@ -307,16 +282,13 @@ rien.
 	“Ĉu vi ne punos Rahim?” demandas mia frateto.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	« Tu ne vas pas punir
-Rahim ? », demande
-Petit Frère.
+	« Tu ne vas pas punir Rahim ? », demande Petit Frère.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text09" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<audio id="audio08" onended="resetbutton('08')" src="https://globalstorybooks.net/media/audio/eo/0342/mp3/08.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton08" onclick="playpause('08')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('eo,eo','eo,fr,eo')" class="btn btn-lg lang-primary" title="Ŝalti inter Esperanto kaj Esperanto">eo</button>
@@ -338,16 +310,13 @@ Petit Frère.
 	“Rahim, vi baldaŭ bedaŭros,” avertas panjo.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	« Rahim », prévient
-maman, « tu le
-regretteras bientôt. »
+	« Rahim », prévient maman, « tu le regretteras bientôt. »
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text10" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<audio id="audio09" onended="resetbutton('09')" src="https://globalstorybooks.net/media/audio/eo/0342/mp3/09.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton09" onclick="playpause('09')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('eo,eo','eo,fr,eo')" class="btn btn-lg lang-primary" title="Ŝalti inter Esperanto kaj Esperanto">eo</button>
@@ -369,15 +338,13 @@ regretteras bientôt. »
 	Rahim eksentas sin malbona.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Rahim ne se sent pas
-bien.
+	Rahim ne se sent pas bien.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text09" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text11" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<audio id="audio10" onended="resetbutton('10')" src="https://globalstorybooks.net/media/audio/eo/0342/mp3/10.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton10" onclick="playpause('10')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('eo,eo','eo,fr,eo')" class="btn btn-lg lang-primary" title="Ŝalti inter Esperanto kaj Esperanto">eo</button>
@@ -399,15 +366,13 @@ bien.
 	“Mia ventro doloras,” flustras Rahim.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Il gémit : « J’ai mal au
-ventre ! »
+	Il gémit: « J’ai mal au ventre ! »
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text10" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text12" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<audio id="audio11" onended="resetbutton('11')" src="https://globalstorybooks.net/media/audio/eo/0342/mp3/11.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton11" onclick="playpause('11')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('eo,eo','eo,fr,eo')" class="btn btn-lg lang-primary" title="Ŝalti inter Esperanto kaj Esperanto">eo</button>
@@ -429,17 +394,13 @@ ventre ! »
 	Panjo sciis ke tio okazus. La fruktoj punas Rahim!
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Maman savait que cela
-arriverait.
-Ce sont les fruits qui
-punissent Rahim !
+	Maman savait que cela arriverait. Ce sont les fruits qui punissent Rahim !
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text11" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text13" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<audio id="audio12" onended="resetbutton('12')" src="https://globalstorybooks.net/media/audio/eo/0342/mp3/12.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton12" onclick="playpause('12')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('eo,eo','eo,fr,eo')" class="btn btn-lg lang-primary" title="Ŝalti inter Esperanto kaj Esperanto">eo</button>
@@ -461,19 +422,13 @@ punissent Rahim !
 	Poste Rahim petas pardonon al ni. “Mi neniam plu tiel glutemas,” li promesas. Kaj ni ĉiuj kredas lin.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Plus tard, Rahim vient
-s’excuser et promet : «
-Je ne serai plus jamais
-aussi glouton. »
-Et nous, nous le
-croyons.
+	Plus tard, Rahim vient s’excuser et promet : « Je ne serai plus jamais aussi glouton. » Et nous, nous le croyons.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text12" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="Rakontaj informoj"><i class="icon-arrow-down"></i></a>
-		<audio id="audio13" onended="resetbutton('13')" src="https://globalstorybooks.net/media/audio/eo/0342/mp3/13.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton13" onclick="playpause('13')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton13" onclick="playpause('13')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('eo,eo','eo,fr,eo')" class="btn btn-lg lang-primary" title="Ŝalti inter Esperanto kaj Esperanto">eo</button>
@@ -491,7 +446,7 @@ croyons.
 		<h5>Tradukita de: dohliam</h5>
 		<h5>Lingvo: <a href="/storybooks-esperantujo/stories/eo">Esperanto</a></h5>
 		<h5><a href="/storybooks-esperantujo/stories/eo/level2">2-a nivelo</a></h5>
-		<h5>Fonto: <a href="https://africanstorybook.org/stories/11989" target="_blank">Punishment</a> el la <a href="https://africanstorybook.org/">Afrika Rakontlibro</a></h5>
+		<h5>Fonto: <a href="https://africanstorybook.org/reader.php?id=11989" target="_blank">Punishment</a> el la <a href="https://africanstorybook.org/">Afrika Rakontlibro</a></h5>
 
 		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.eo" target="_blank"><img alt="Krea Komunaĵo Permesilo" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Ĉi-tiu verko estas libere disponebla laŭ la <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.eo" target="_blank">Atribuite 3.0 Internacia Permesilo de la Krea Komunaĵo</a>.</div>
 

@@ -16,6 +16,7 @@
 	<meta name="description" content="Rakontoj por Esperantujo is designed specifically for teachers, parents, and community members. It makes 40 stories from the African Storybook available in Esperanto as well as the major national, immigrant and refugee languages of the world, with stories in Arabic, French, German, Italian, Persian, Polish, Portuguese, Punjabi, Spanish, Tagalog, and Urdu, among others.
 ">
 	<link rel="stylesheet" href="/storybooks-esperantujo/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-esperantujo/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-esperantujo/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-esperantujo/stories/fr/0291/">
 	<link rel="alternate" type="application/rss+xml" title="Rakontoj por Esperantujo" href="/storybooks-esperantujo">
@@ -88,18 +89,18 @@
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/fr/0291/mp3/01.mp3"></audio>
+			<audio id="audio01" onended="resetbutton('01')" src="/storybooks-esperantujo/audio/fr/0291/mp3/01.mp3"></audio>
 			<button onclick="switchlang('fr,eo','eo,fr,fr')" class="btn btn-lg lang-primary" title="Ŝalti inter franca kaj Esperanto">eo</button>
 			<button style="display:none" onclick="switchlang('fr,fr','eo,fr,fr')" class="btn btn-lg lang-secondary" title="Ŝalti inter franca kaj franca">fr</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Verkita de"><img class="cover-icon" src="/storybooks-esperantujo/css/pencil.svg" alt="Verkita de"></span> Nina Orange</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustrita de"><img class="cover-icon" src="/storybooks-esperantujo/css/art.svg" alt="Ilustrita de"></span> Wiehan de Jager</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Tradukita de"><img class="cover-icon" src="/storybooks-esperantujo/css/global.svg" alt="Tradukita de"></span> Isabelle Duston, Véronique Biddau</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegita de"><img class="cover-icon" src="/storybooks-esperantujo/css/megaphone.svg" alt="Laŭtlegita de"></span> Alexandra Danahy</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Lingvo"><img class="cover-icon" src="/storybooks-esperantujo/css/language.svg" alt="Lingvo"></span> <a href="/storybooks-esperantujo/stories/fr">franca</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Nivelo"><img class="cover-icon" src="/storybooks-esperantujo/css/level.svg" alt="Nivelo"></span> <a href="/storybooks-esperantujo/stories/fr/level4">4-a nivelo</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegi rakonton"><img class="cover-icon" src="/storybooks-esperantujo/css/speaker.svg" alt="Laŭtlegi la tutan rakonton"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fr/0291/fr-0291_vusi.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Aŭtomate ludi la rakonton (beta - nur labortable)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Aŭtomate ludi la rakonton" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Verkita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/pencil.svg" alt="Verkita de"></span> Nina Orange</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustrita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/art.svg" alt="Ilustrita de"></span> Wiehan de Jager</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Tradukita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/global.svg" alt="Tradukita de"></span> Isabelle Duston, Véronique Biddau</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/megaphone.svg" alt="Laŭtlegita de"></span> Monique Bournot-Trites</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Lingvo"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/language.svg" alt="Lingvo"></span> <a href="/storybooks-esperantujo/stories/fr">franca</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Nivelo"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/level.svg" alt="Nivelo"></span> <a href="/storybooks-esperantujo/stories/fr/level4">4-a nivelo</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegi rakonton"><img class="cover-icon cover-icon-audio" src="/storybooks-esperantujo/css/speaker.svg" alt="Laŭtlegi la tutan rakonton"></span> <audio id="audioplayer" controls><source src="/0291/fr-0291_vusi.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Aŭtomate ludi la rakonton (beta - nur labortable)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Aŭtomate ludi la rakonton" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -108,24 +109,14 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
 
-	Un matin de bonne heure, Vusi est
-appelé par sa grand-mère, «&nbsp;Vusi, s’il
-te plaît, peux tu amener cet œuf à
-tes parents. Ils veulent faire un gros
-gâteau pour le mariage de ta
-sœur&nbsp;».
+	Un matin de bonne heure, Vusi est appelé par sa grand-mère, «&nbsp;Vusi, s’il te plaît, peux tu amener cet œuf à tes parents. Ils veulent faire un gros gâteau pour le mariage de ta sœur&nbsp;».
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	Frue iun matenon la avino de Vusi vokis lin, “Vusi, bonvolu porti tiun ĉi ovon al viaj gepatroj. Ili volas fari grandan kukon por la geedziĝo de via fratino.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Un matin de bonne heure, Vusi est
-appelé par sa grand-mère, «&nbsp;Vusi, s’il
-te plaît, peux tu amener cet œuf à
-tes parents. Ils veulent faire un gros
-gâteau pour le mariage de ta
-sœur&nbsp;».
+	Un matin de bonne heure, Vusi est appelé par sa grand-mère, «&nbsp;Vusi, s’il te plaît, peux tu amener cet œuf à tes parents. Ils veulent faire un gros gâteau pour le mariage de ta sœur&nbsp;».
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -147,22 +138,14 @@ sœur&nbsp;».
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/03.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
 
-	En allant chez ses parents, Vusi
-rencontra deux garçons en train de
-cueillir des fruits. Un des garçons
-s’empara de l’œuf de Vusi et le
-lança sur un arbre. L’œuf se cassa.
+	En allant chez ses parents, Vusi rencontra deux garçons en train de cueillir des fruits. Un des garçons s’empara de l’œuf de Vusi et le lança sur un arbre. L’œuf se cassa.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	Survoje al siaj gepatroj Vusi renkontis du knabojn kiuj kolektis fruktojn. Unu el la knaboj ekprenis la ovon de Vusi kaj pafis ĝin al arbo. La ovo rompiĝis.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	En allant chez ses parents, Vusi
-rencontra deux garçons en train de
-cueillir des fruits. Un des garçons
-s’empara de l’œuf de Vusi et le
-lança sur un arbre. L’œuf se cassa.
+	En allant chez ses parents, Vusi rencontra deux garçons en train de cueillir des fruits. Un des garçons s’empara de l’œuf de Vusi et le lança sur un arbre. L’œuf se cassa.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -184,22 +167,14 @@ lança sur un arbre. L’œuf se cassa.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/04.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
 
-	«&nbsp;Qu’as-tu fait&nbsp;?&nbsp;» cria Vusi. «&nbsp;Cet œuf
-était pour un gâteau, le gâteau du
-mariage de ma sœur. Que va dire
-ma sœur s’il n’y a pas de gâteau
-pour son mariage&nbsp;?&nbsp;»
+	«&nbsp;Qu’as-tu fait&nbsp;?&nbsp;» cria Vusi. «&nbsp;Cet œuf était pour un gâteau, le gâteau du mariage de ma sœur. Que va dire ma sœur s’il n’y a pas de gâteau pour son mariage&nbsp;?&nbsp;»
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	“Kion vi faris?” ekkriis Vusi. “Tiu ovo estis por kuko. La kuko estis por la edziniĝo de mia fratino. Kion diros mia fratino, se ne estos geedziĝa kuko?”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	«&nbsp;Qu’as-tu fait&nbsp;?&nbsp;» cria Vusi. «&nbsp;Cet œuf
-était pour un gâteau, le gâteau du
-mariage de ma sœur. Que va dire
-ma sœur s’il n’y a pas de gâteau
-pour son mariage&nbsp;?&nbsp;»
+	«&nbsp;Qu’as-tu fait&nbsp;?&nbsp;» cria Vusi. «&nbsp;Cet œuf était pour un gâteau, le gâteau du mariage de ma sœur. Que va dire ma sœur s’il n’y a pas de gâteau pour son mariage&nbsp;?&nbsp;»
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -221,24 +196,14 @@ pour son mariage&nbsp;?&nbsp;»
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/05.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
 
-	Les garçons étaient désolés d’avoir
-taquiné Vusi.
-«&nbsp;Nous ne pouvons rien faire pour le
-gâteau, mais voilà un bâton de
-marche pour ta sœur,&nbsp;» dit l’un
-d’eux. Vusi poursuivit sa route.
+	Les garçons étaient désolés d’avoir taquiné Vusi. «&nbsp;Nous ne pouvons rien faire pour le gâteau, mais voilà un bâton de marche pour ta sœur,&nbsp;» dit l’un d’eux. Vusi poursuivit sa route.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	La knaboj tre bedaŭris ke ili mokis Vusi. “Ni ne povas helpi pri la kuko, sed jen bastono por via fratino,” unu el ili diris. Vusi daŭrigis sian vojaĝon.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Les garçons étaient désolés d’avoir
-taquiné Vusi.
-«&nbsp;Nous ne pouvons rien faire pour le
-gâteau, mais voilà un bâton de
-marche pour ta sœur,&nbsp;» dit l’un
-d’eux. Vusi poursuivit sa route.
+	Les garçons étaient désolés d’avoir taquiné Vusi. «&nbsp;Nous ne pouvons rien faire pour le gâteau, mais voilà un bâton de marche pour ta sœur,&nbsp;» dit l’un d’eux. Vusi poursuivit sa route.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -260,26 +225,14 @@ d’eux. Vusi poursuivit sa route.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/06.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
 
-	En chemin, il rencontra deux
-hommes, qui construisaient une
-maison. «&nbsp;Pouvons-nous utiliser ce
-solide bâton&nbsp;?&nbsp;» demanda l’un d’eux.
-Mais le bâton n’était pas assez
-solide pour la construction, et il
-s’est rompu.
+	En chemin, il rencontra deux hommes, qui construisaient une maison. «&nbsp;Pouvons-nous utiliser ce solide bâton&nbsp;?&nbsp;» demanda l’un d’eux. Mais le bâton n’était pas assez solide pour la construction, et il s’est rompu.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	Survoje li renkontis du virojn kiuj konstruis domon. “Ĉu ni povas uzi tiun fortan bastonon?” demandis unu el ili. Sed la bastono ne estis sufiĉe forta, kaj ĝi rompiĝis.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	En chemin, il rencontra deux
-hommes, qui construisaient une
-maison. «&nbsp;Pouvons-nous utiliser ce
-solide bâton&nbsp;?&nbsp;» demanda l’un d’eux.
-Mais le bâton n’était pas assez
-solide pour la construction, et il
-s’est rompu.
+	En chemin, il rencontra deux hommes, qui construisaient une maison. «&nbsp;Pouvons-nous utiliser ce solide bâton&nbsp;?&nbsp;» demanda l’un d’eux. Mais le bâton n’était pas assez solide pour la construction, et il s’est rompu.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -301,32 +254,14 @@ s’est rompu.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/07.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
 
-	«&nbsp;Qu’avez-vous fait&nbsp;?&nbsp;» s’écria Vusi.
-«&nbsp;Ce bâton était un cadeau pour ma
-sœur. Les cueilleurs de fruits m’ont
-donné le bâton parce qu’ils ont
-cassé l’œuf pour le gâteau. Le
-gâteau était pour le mariage de ma
-sœur.
-Maintenant il n’y a pas d’œuf, pas
-de gâteau, et aucun cadeau.
-Que va dire ma sœur&nbsp;?
+	«&nbsp;Qu’avez-vous fait&nbsp;?&nbsp;» s’écria Vusi. «&nbsp;Ce bâton était un cadeau pour ma sœur. Les cueilleurs de fruits m’ont donné le bâton parce qu’ils ont cassé l’œuf pour le gâteau. Le gâteau était pour le mariage de ma sœur. Maintenant il n’y a pas d’œuf, pas de gâteau, et aucun cadeau. Que va dire ma sœur&nbsp;?
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	“Kion vi faris?” ekkriis Vusi. “Tiu bastono estis donaco por mia fratino. La fruktokolektistoj donis la bastonon al mi, ĉar ili rompis la ovon por la kuko. La kuko estis por la geedziĝo de mia fratino. Nun estas neniu ovo, neniu kuko, kaj neniu donaco. Kion diros mia fratino?”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	«&nbsp;Qu’avez-vous fait&nbsp;?&nbsp;» s’écria Vusi.
-«&nbsp;Ce bâton était un cadeau pour ma
-sœur. Les cueilleurs de fruits m’ont
-donné le bâton parce qu’ils ont
-cassé l’œuf pour le gâteau. Le
-gâteau était pour le mariage de ma
-sœur.
-Maintenant il n’y a pas d’œuf, pas
-de gâteau, et aucun cadeau.
-Que va dire ma sœur&nbsp;?
+	«&nbsp;Qu’avez-vous fait&nbsp;?&nbsp;» s’écria Vusi. «&nbsp;Ce bâton était un cadeau pour ma sœur. Les cueilleurs de fruits m’ont donné le bâton parce qu’ils ont cassé l’œuf pour le gâteau. Le gâteau était pour le mariage de ma sœur. Maintenant il n’y a pas d’œuf, pas de gâteau, et aucun cadeau. Que va dire ma sœur&nbsp;?
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -348,24 +283,14 @@ Que va dire ma sœur&nbsp;?
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/08.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
 
-	Les constructeurs étaient désolés
-d’avoir brisé le bâton.
-«&nbsp;Nous ne pouvons rien faire pour le
-gâteau, mais voici du foin pour ta
-sœur,&nbsp;» dit l’un d’eux.
-Vusi continua sa route.
+	Les constructeurs étaient désolés d’avoir brisé le bâton. «&nbsp;Nous ne pouvons rien faire pour le gâteau, mais voici du foin pour ta sœur,&nbsp;» dit l’un d’eux. Vusi continua sa route.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	La konstruistoj tre bedaŭris ke ili rompis la bastonon. “Ni ne povas helpi pri la kuko, sed jen iom da tegmenta pajlo por via fratino,” diris unu el ili. Kaj do Vusi daŭrigis sian vojaĝon.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Les constructeurs étaient désolés
-d’avoir brisé le bâton.
-«&nbsp;Nous ne pouvons rien faire pour le
-gâteau, mais voici du foin pour ta
-sœur,&nbsp;» dit l’un d’eux.
-Vusi continua sa route.
+	Les constructeurs étaient désolés d’avoir brisé le bâton. «&nbsp;Nous ne pouvons rien faire pour le gâteau, mais voici du foin pour ta sœur,&nbsp;» dit l’un d’eux. Vusi continua sa route.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -387,26 +312,14 @@ Vusi continua sa route.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/09.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
 
-	Sur le chemin, Vusi rencontra un
-fermier et une vache. «&nbsp;Quel foin
-délicieux, est-ce que je peux en
-prendre un peu&nbsp;?&nbsp;» demanda la
-vache.
-Mais le foin était si bon que la
-vache a tout mangé&nbsp;!
+	Sur le chemin, Vusi rencontra un fermier et une vache. «&nbsp;Quel foin délicieux, est-ce que je peux en prendre un peu&nbsp;?&nbsp;» demanda la vache. Mais le foin était si bon que la vache a tout mangé&nbsp;!
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	Survoje Vusi renkontis bieniston kaj bovinon. “Kia bongusta pajlo, ĉu mi rajtas manĝeti iomete?” demandis la bovino. Sed la pajlo estis tiel bongusta, ke la bovino manĝis ĉion!
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Sur le chemin, Vusi rencontra un
-fermier et une vache. «&nbsp;Quel foin
-délicieux, est-ce que je peux en
-prendre un peu&nbsp;?&nbsp;» demanda la
-vache.
-Mais le foin était si bon que la
-vache a tout mangé&nbsp;!
+	Sur le chemin, Vusi rencontra un fermier et une vache. «&nbsp;Quel foin délicieux, est-ce que je peux en prendre un peu&nbsp;?&nbsp;» demanda la vache. Mais le foin était si bon que la vache a tout mangé&nbsp;!
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -428,36 +341,14 @@ vache a tout mangé&nbsp;!
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/10.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
 
-	«&nbsp;Qu’as-tu fait&nbsp;?&nbsp;» s’écria Vusi.
-«&nbsp;Ce foin était un cadeau pour ma
-sœur. Les constructeurs m’ont
-donné du foin, car ils ont cassé le
-bâton des cueilleurs de fruits. Les
-cueilleurs de fruits m’ont donné le
-bâton parce qu’ils ont cassé l’œuf
-pour le gâteau de ma sœur. Le
-gâteau était pour le mariage de ma
-sœur. Maintenant il n’y a pas d’œuf,
-pas de gâteau, et aucun cadeau.
-Que va dire ma sœur&nbsp;?&nbsp;»
+	«&nbsp;Qu’as-tu fait&nbsp;?&nbsp;» s’écria Vusi. «&nbsp;Ce foin était un cadeau pour ma sœur. Les constructeurs m’ont donné du foin, car ils ont cassé le bâton des cueilleurs de fruits. Les cueilleurs de fruits m’ont donné le bâton parce qu’ils ont cassé l’œuf pour le gâteau de ma sœur. Le gâteau était pour le mariage de ma sœur. Maintenant il n’y a pas d’œuf, pas de gâteau, et aucun cadeau. Que va dire ma sœur&nbsp;?&nbsp;»
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	“Kion vi faris?” ekkriis Vusi? “Tiu pajlo estis donaco por mia fratino. La konstruistoj donis la pajlon al mi, ĉar ili rompis la bastonon de la fruktokolektistoj. La fruktokolektistoj donis la bastonon al mi, ĉar ili rompis la ovon por la kuko de mia fratino. La kuko estis por la geedziĝo de mia fratino. Nun estas neniu ovo, neniu kuko, kaj neniu donaco. Kion diros mia fratino?”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	«&nbsp;Qu’as-tu fait&nbsp;?&nbsp;» s’écria Vusi.
-«&nbsp;Ce foin était un cadeau pour ma
-sœur. Les constructeurs m’ont
-donné du foin, car ils ont cassé le
-bâton des cueilleurs de fruits. Les
-cueilleurs de fruits m’ont donné le
-bâton parce qu’ils ont cassé l’œuf
-pour le gâteau de ma sœur. Le
-gâteau était pour le mariage de ma
-sœur. Maintenant il n’y a pas d’œuf,
-pas de gâteau, et aucun cadeau.
-Que va dire ma sœur&nbsp;?&nbsp;»
+	«&nbsp;Qu’as-tu fait&nbsp;?&nbsp;» s’écria Vusi. «&nbsp;Ce foin était un cadeau pour ma sœur. Les constructeurs m’ont donné du foin, car ils ont cassé le bâton des cueilleurs de fruits. Les cueilleurs de fruits m’ont donné le bâton parce qu’ils ont cassé l’œuf pour le gâteau de ma sœur. Le gâteau était pour le mariage de ma sœur. Maintenant il n’y a pas d’œuf, pas de gâteau, et aucun cadeau. Que va dire ma sœur&nbsp;?&nbsp;»
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -479,22 +370,14 @@ Que va dire ma sœur&nbsp;?&nbsp;»
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/11.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
 
-	La vache était désolée d’avoir été si
-gourmande. Le fermier décida que
-la vache devait accompagner Vusi
-et être un cadeau pour sa sœur.
-Vusi poursuivit sa route.
+	La vache était désolée d’avoir été si gourmande. Le fermier décida que la vache devait accompagner Vusi et être un cadeau pour sa sœur. Vusi poursuivit sa route.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	La bovino tre bedaŭras ke ŝi tiel glutemis. La bienisto konsentis ke la bovino iru kun Vusi kiel donaco por lia fratino. Kaj Vusi kontinuis sur la vojo.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	La vache était désolée d’avoir été si
-gourmande. Le fermier décida que
-la vache devait accompagner Vusi
-et être un cadeau pour sa sœur.
-Vusi poursuivit sa route.
+	La vache était désolée d’avoir été si gourmande. Le fermier décida que la vache devait accompagner Vusi et être un cadeau pour sa sœur. Vusi poursuivit sa route.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -516,24 +399,14 @@ Vusi poursuivit sa route.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/12.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
 
-	Mais là l’heure du souper la vache
-s’échappa et retourna chez le
-fermier. Et Vusi se perdit en chemin.
-Il arriva très tard pour le mariage de
-sa sœur. Les invités mangeaient
-déjà.
+	Mais là l’heure du souper la vache s’échappa et retourna chez le fermier. Et Vusi se perdit en chemin. Il arriva très tard pour le mariage de sa sœur. Les invités mangeaient déjà.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	Sed la bovino rekuris al la bienisto je tempo vespermanĝa. Kaj Vusi perdiĝis dum sia vojaĝo. Li alvenis tre malfrue por la geedziĝo de sia fratino. La gastoj jam estis manĝantaj.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Mais là l’heure du souper la vache
-s’échappa et retourna chez le
-fermier. Et Vusi se perdit en chemin.
-Il arriva très tard pour le mariage de
-sa sœur. Les invités mangeaient
-déjà.
+	Mais là l’heure du souper la vache s’échappa et retourna chez le fermier. Et Vusi se perdit en chemin. Il arriva très tard pour le mariage de sa sœur. Les invités mangeaient déjà.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -555,38 +428,14 @@ déjà.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/13.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
 
-	«&nbsp;Que dois-je faire&nbsp;?&nbsp;» s’écria Vusi.
-«&nbsp;La vache qui s’est enfuie était un
-cadeau, en échange du foin, que les
-constructeurs m’ont donné. Les
-constructeurs m’ont donné le foin,
-car ils ont cassé le bâton des
-cueilleurs de fruits. Les cueilleurs
-de fruits m’ont donné le bâton
-parce qu’ils ont cassé l’œuf pour le
-gâteau. Le gâteau était pour le
-mariage.
-Maintenant il n’y a pas d’œuf, pas
-de gâteau, et aucun cadeau&nbsp;».
+	«&nbsp;Que dois-je faire&nbsp;?&nbsp;» s’écria Vusi. «&nbsp;La vache qui s’est enfuie était un cadeau, en échange du foin, que les constructeurs m’ont donné. Les constructeurs m’ont donné le foin, car ils ont cassé le bâton des cueilleurs de fruits. Les cueilleurs de fruits m’ont donné le bâton parce qu’ils ont cassé l’œuf pour le gâteau. Le gâteau était pour le mariage. Maintenant il n’y a pas d’œuf, pas de gâteau, et aucun cadeau&nbsp;».
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	“Kion mi faru?” ekkriis Vusi. “La bovino kiu forkuris estis donaco, kompense pro la pajlo, kiun donis al mi la konstruistoj. La konstruistoj donis al mi la pajlon, ĉar ili rompis la bastonon de la fruktokolektistoj. La fruktokolektistoj donis al mi la bastonon, ĉar ili rompis la ovon por la kuko. La kuko estis por la geedziĝo. Nun estas neniu ovo, neniu kuko, kaj neniu donaco.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	«&nbsp;Que dois-je faire&nbsp;?&nbsp;» s’écria Vusi.
-«&nbsp;La vache qui s’est enfuie était un
-cadeau, en échange du foin, que les
-constructeurs m’ont donné. Les
-constructeurs m’ont donné le foin,
-car ils ont cassé le bâton des
-cueilleurs de fruits. Les cueilleurs
-de fruits m’ont donné le bâton
-parce qu’ils ont cassé l’œuf pour le
-gâteau. Le gâteau était pour le
-mariage.
-Maintenant il n’y a pas d’œuf, pas
-de gâteau, et aucun cadeau&nbsp;».
+	«&nbsp;Que dois-je faire&nbsp;?&nbsp;» s’écria Vusi. «&nbsp;La vache qui s’est enfuie était un cadeau, en échange du foin, que les constructeurs m’ont donné. Les constructeurs m’ont donné le foin, car ils ont cassé le bâton des cueilleurs de fruits. Les cueilleurs de fruits m’ont donné le bâton parce qu’ils ont cassé l’œuf pour le gâteau. Le gâteau était pour le mariage. Maintenant il n’y a pas d’œuf, pas de gâteau, et aucun cadeau&nbsp;».
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -608,32 +457,14 @@ de gâteau, et aucun cadeau&nbsp;».
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/14.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
 
-	La sœur de Vusi réfléchit un
-moment, puis elle a dit,
-«&nbsp;Vusi mon frère, les cadeaux me
-sont égaux. Je ne me soucie pas non
-plus du gâteau&nbsp;! Nous sommes ici
-tous ensemble, je suis heureuse.
-Maintenant va mettre sur tes
-vêtements de fête et célébrons ce
-jour&nbsp;!&nbsp;»
-Et c’est ce que fit Vusi.
+	La sœur de Vusi réfléchit un moment, puis elle a dit, «&nbsp;Vusi mon frère, les cadeaux me sont égaux. Je ne me soucie pas non plus du gâteau&nbsp;! Nous sommes ici tous ensemble, je suis heureuse. Maintenant va mettre tes vêtements de fête et célébrons ce jour&nbsp;!&nbsp;» Et c’est ce que fit Vusi.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	La fratino de Vusi pensis iomete, tiam ŝi diris, “Vusi, mia frato, mi ne vere prizorgas la donacojn. Mi eĉ ne prizorgas la kukon! Ni ĉiuj estas kune ĉi tie, do mi ĝojas. Nun surmetu viajn bonajn vestaĵojn, kaj ni festu tiun ĉi tagon!” Kaj do Vusi tion faris.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	La sœur de Vusi réfléchit un
-moment, puis elle a dit,
-«&nbsp;Vusi mon frère, les cadeaux me
-sont égaux. Je ne me soucie pas non
-plus du gâteau&nbsp;! Nous sommes ici
-tous ensemble, je suis heureuse.
-Maintenant va mettre sur tes
-vêtements de fête et célébrons ce
-jour&nbsp;!&nbsp;»
-Et c’est ce que fit Vusi.
+	La sœur de Vusi réfléchit un moment, puis elle a dit, «&nbsp;Vusi mon frère, les cadeaux me sont égaux. Je ne me soucie pas non plus du gâteau&nbsp;! Nous sommes ici tous ensemble, je suis heureuse. Maintenant va mettre tes vêtements de fête et célébrons ce jour&nbsp;!&nbsp;» Et c’est ce que fit Vusi.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -656,10 +487,10 @@ Et c’est ce que fit Vusi.
 		<h5>Verkita de: Nina Orange</h5>
 		<h5>Ilustrita de: Wiehan de Jager</h5>
 		<h5>Tradukita de: Isabelle Duston, Véronique Biddau</h5>
-		<h5>Laŭtlegita de: Alexandra Danahy</h5>
+		<h5>Laŭtlegita de: Monique Bournot-Trites</h5>
 		<h5>Lingvo: <a href="/storybooks-esperantujo/stories/fr">franca</a></h5>
 		<h5><a href="/storybooks-esperantujo/stories/fr/level4">4-a nivelo</a></h5>
-		<h5>Fonto: <a href="https://africanstorybook.org/stories/6895" target="_blank">What Vusi's sister said</a> el la <a href="https://africanstorybook.org/">Afrika Rakontlibro</a></h5>
+		<h5>Fonto: <a href="https://africanstorybook.org/reader.php?id=6895" target="_blank">What Vusi's sister said</a> el la <a href="https://africanstorybook.org/">Afrika Rakontlibro</a></h5>
 
 		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.eo" target="_blank"><img alt="Krea Komunaĵo Permesilo" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />Ĉi-tiu verko estas libere disponebla laŭ la <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.eo" target="_blank">Atribuite 3.0 Internacia Permesilo de la Krea Komunaĵo</a>.</div>
 
