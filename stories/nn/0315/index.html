@@ -88,16 +88,18 @@
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-			<button class="btn btn-lg disabled" id="playbutton01" onclick="playpause('01')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/nn/0315/mp3/01.mp3"></audio>
 			<button onclick="switchlang('nn,eo','eo,fr,nn')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (nynorsk) kaj Esperanto">eo</button>
 			<button style="display:none" onclick="switchlang('nn,fr','eo,fr,nn')" class="btn btn-lg lang-secondary" title="Ŝalti inter norvega (nynorsk) kaj franca">fr</button>
 		</div>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Verkita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/pencil.svg" alt="Verkita de"></span> Ursula Nafula</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Ilustrita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/art.svg" alt="Ilustrita de"></span> Peris Wachuka</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Tradukita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/global.svg" alt="Tradukita de"></span> Espen Stranger-Johannessen, Martine Rørstad Sand</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegita de"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/megaphone.svg" alt="Laŭtlegita de"></span> Kristofer Olai Ravn Stavseng</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Lingvo"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/language.svg" alt="Lingvo"></span> <a href="/storybooks-esperantujo/stories/nn">norvega (nynorsk)</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Nivelo"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/level.svg" alt="Nivelo"></span> <a href="/storybooks-esperantujo/stories/nn/level3">3-a nivelo</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegi rakonton"><img class="cover-icon cover-icon-text" src="/storybooks-esperantujo/css/speaker.svg" alt="Laŭtlegi la tutan rakonton"></span> <span class="cover_msg">Sonregistraĵo por tiu ĉi rakonto ankoraŭ mankas.</span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Laŭtlegi rakonton"><img class="cover-icon cover-icon-audio" src="/storybooks-esperantujo/css/speaker.svg" alt="Laŭtlegi la tutan rakonton"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/nn/0315/nn-0315_sakima.mp3" type="audio/mpeg"></audio></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Aŭtomate ludi la rakonton (beta - nur labortable)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Aŭtomate ludi la rakonton" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
@@ -120,7 +122,8 @@
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<button class="btn btn-lg disabled" id="playbutton02" onclick="playpause('02')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/audio/nn/0315/mp3/02.mp3"></audio>
+		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('nn,eo','eo,fr,nn')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (nynorsk) kaj Esperanto">eo</button>
@@ -148,7 +151,8 @@
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<button class="btn btn-lg disabled" id="playbutton03" onclick="playpause('03')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/audio/nn/0315/mp3/03.mp3"></audio>
+		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('nn,eo','eo,fr,nn')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (nynorsk) kaj Esperanto">eo</button>
@@ -176,7 +180,8 @@
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<button class="btn btn-lg disabled" id="playbutton04" onclick="playpause('04')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/audio/nn/0315/mp3/04.mp3"></audio>
+		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('nn,eo','eo,fr,nn')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (nynorsk) kaj Esperanto">eo</button>
@@ -195,7 +200,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	La gepatroj de Sakima laboris ĉe la domo de la riĉulo. Ili eliris la hejmon frue matene kaj revenis malfrue vespere. Sakima estis lasita kun sia fratineto.
+	La gepatroj de Sakima laboris ĉe la domo de la riĉulo. Ili eliris la hejmon frumatene kaj revenis malfrue vespere. Sakima estis lasita kun sia fratineto.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	Les parents de Sakima travaillaient chez l’homme riche. Ils quittaient leur maison tôt le matin et revenaient tard le soir. Sakima restait seul chez eux avec sa petite sœur.
@@ -204,7 +209,8 @@
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<button class="btn btn-lg disabled" id="playbutton05" onclick="playpause('05')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/audio/nn/0315/mp3/05.mp3"></audio>
+		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('nn,eo','eo,fr,nn')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (nynorsk) kaj Esperanto">eo</button>
@@ -232,7 +238,8 @@
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<button class="btn btn-lg disabled" id="playbutton06" onclick="playpause('06')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/audio/nn/0315/mp3/06.mp3"></audio>
+		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('nn,eo','eo,fr,nn')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (nynorsk) kaj Esperanto">eo</button>
@@ -260,7 +267,8 @@
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text08" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<button class="btn btn-lg disabled" id="playbutton07" onclick="playpause('07')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/audio/nn/0315/mp3/07.mp3"></audio>
+		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('nn,eo','eo,fr,nn')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (nynorsk) kaj Esperanto">eo</button>
@@ -279,7 +287,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	Sakima ŝatis kanti por sia fratineto, precipe se ŝi malsatis. Lia fratino aŭskultus lin kanti sian plej ŝatatan kanton. Ŝi svingiĝus je la trankviliga melodio.
+	Sakima ŝatis kanti por sia fratineto, precipe se ŝi malsatis. Lia fratino aŭskultus lin kanti sian plej ŝatatan kanton. Ŝi kutimis svingiĝi laŭ la trankviliga melodio.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	Sakima aimait chanter pour sa petite sœur, surtout si elle avait faim. Sa sœur l’écoutait chanter sa chanson préférée. Elle se balançait en écoutant la chanson apaisante.
@@ -288,7 +296,8 @@
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text09" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<button class="btn btn-lg disabled" id="playbutton08" onclick="playpause('08')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<audio id="audio08" onended="resetbutton('08')" src="https://globalstorybooks.net/media/audio/nn/0315/mp3/08.mp3"></audio>
+		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('nn,eo','eo,fr,nn')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (nynorsk) kaj Esperanto">eo</button>
@@ -316,7 +325,8 @@
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text10" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<button class="btn btn-lg disabled" id="playbutton09" onclick="playpause('09')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<audio id="audio09" onended="resetbutton('09')" src="https://globalstorybooks.net/media/audio/nn/0315/mp3/09.mp3"></audio>
+		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('nn,eo','eo,fr,nn')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (nynorsk) kaj Esperanto">eo</button>
@@ -335,7 +345,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	Iun vesperon, kiam liaj gepatroj revenis hejmen, ili tre silentis. Sakima sciis ke io ne ĝustis.
+	Iun vesperon, kiam liaj gepatroj revenis hejmen, ili tre silentis. Sakima sciis ke io ne ĝustas.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	Un soir quand ses parents sont revenus chez eux, ils étaient très tranquilles. Sakima savait qu’il y avait un problème.
@@ -344,7 +354,8 @@
 	<div class="btn-group switcher-group">
 		<a href="#text09" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text11" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<button class="btn btn-lg disabled" id="playbutton10" onclick="playpause('10')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<audio id="audio10" onended="resetbutton('10')" src="https://globalstorybooks.net/media/audio/nn/0315/mp3/10.mp3"></audio>
+		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('nn,eo','eo,fr,nn')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (nynorsk) kaj Esperanto">eo</button>
@@ -363,7 +374,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	“Kio ne ĝustas, patrino, patro?” Sakima demandis. Sakima eklernis ke la filo de la riĉulo mankis. La viro estis tre malĝoja kaj soleca.
+	“Kio ne ĝustas, patrino, patro?” Sakima demandis. Sakima sciĝis ke la filo de la riĉulo mankas. La viro estis tre malĝoja kaj soleca.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	« Qu’est-ce qu’il y a, maman et papa? » Sakima demanda. Sakima apprit que le fils de l’homme riche avait disparu. L’homme était très triste et seul.
@@ -372,7 +383,8 @@
 	<div class="btn-group switcher-group">
 		<a href="#text10" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text12" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<button class="btn btn-lg disabled" id="playbutton11" onclick="playpause('11')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<audio id="audio11" onended="resetbutton('11')" src="https://globalstorybooks.net/media/audio/nn/0315/mp3/11.mp3"></audio>
+		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('nn,eo','eo,fr,nn')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (nynorsk) kaj Esperanto">eo</button>
@@ -391,7 +403,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	“Mi povas kanti por li. Li eble feliĉos denove,” Sakima diris al siaj gepatroj. Sed siaj gepatroj malakceptis lin. “Li estas tre riĉa. Vi nur estas blinda knabo. Ĉu vi kredas ke via kanto povos helpi lin?”
+	“Mi povas kanti por li. Li eble feliĉos denove,” Sakima diris al siaj gepatroj. Sed liaj gepatroj malakceptis lin. “Li estas tre riĉa. Vi nur estas blinda knabo. Ĉu vi kredas ke via kanto povos helpi lin?”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	« Je peux chanter pour lui. Il redeviendra peut-être heureux, » dit Sakima à ses parents. Mais ses parents rejetèrent l’idée. « Il est très riche. Tu es seulement un garçon aveugle. Penses-tu vraiment que ta chanson l’aidera? »
@@ -400,7 +412,8 @@
 	<div class="btn-group switcher-group">
 		<a href="#text11" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text13" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<button class="btn btn-lg disabled" id="playbutton12" onclick="playpause('12')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<audio id="audio12" onended="resetbutton('12')" src="https://globalstorybooks.net/media/audio/nn/0315/mp3/12.mp3"></audio>
+		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('nn,eo','eo,fr,nn')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (nynorsk) kaj Esperanto">eo</button>
@@ -428,7 +441,8 @@
 	<div class="btn-group switcher-group">
 		<a href="#text12" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text14" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<button class="btn btn-lg disabled" id="playbutton13" onclick="playpause('13')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<audio id="audio13" onended="resetbutton('13')" src="https://globalstorybooks.net/media/audio/nn/0315/mp3/13.mp3"></audio>
+		<button class="btn btn-lg" id="playbutton13" onclick="playpause('13')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('nn,eo','eo,fr,nn')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (nynorsk) kaj Esperanto">eo</button>
@@ -447,7 +461,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	La sekvan tagon Sakima demandis sian fratineton gvidi sin al la domo de la riĉulo.
+	La sekvan tagon Sakima petis sian fratineton gvidi lin al la domo de la riĉulo.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	Le lendemain, Sakima demanda à sa petite sœur de le mener chez l’homme riche.
@@ -456,7 +470,8 @@
 	<div class="btn-group switcher-group">
 		<a href="#text13" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text15" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<button class="btn btn-lg disabled" id="playbutton14" onclick="playpause('14')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<audio id="audio14" onended="resetbutton('14')" src="https://globalstorybooks.net/media/audio/nn/0315/mp3/14.mp3"></audio>
+		<button class="btn btn-lg" id="playbutton14" onclick="playpause('14')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('nn,eo','eo,fr,nn')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (nynorsk) kaj Esperanto">eo</button>
@@ -484,7 +499,8 @@
 	<div class="btn-group switcher-group">
 		<a href="#text14" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text16" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<button class="btn btn-lg disabled" id="playbutton15" onclick="playpause('15')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<audio id="audio15" onended="resetbutton('15')" src="https://globalstorybooks.net/media/audio/nn/0315/mp3/15.mp3"></audio>
+		<button class="btn btn-lg" id="playbutton15" onclick="playpause('15')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('nn,eo','eo,fr,nn')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (nynorsk) kaj Esperanto">eo</button>
@@ -512,7 +528,8 @@
 	<div class="btn-group switcher-group">
 		<a href="#text15" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text17" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<button class="btn btn-lg disabled" id="playbutton16" onclick="playpause('16')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<audio id="audio16" onended="resetbutton('16')" src="https://globalstorybooks.net/media/audio/nn/0315/mp3/16.mp3"></audio>
+		<button class="btn btn-lg" id="playbutton16" onclick="playpause('16')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('nn,eo','eo,fr,nn')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (nynorsk) kaj Esperanto">eo</button>
@@ -531,7 +548,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	Sakima finis la kantadon kaj turniĝis por foriri. Sed la riĉulo rapidis ekstere kaj diris, “Mi petas, kantu denove.”
+	Sakima finis la kantadon kaj turniĝis por foriri. Sed la riĉulo rapidis eksteren kaj diris, “Mi petas, kantu denove.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	Sakima termina de chanter sa chanson et s’apprêtait à partir. Mais l’homme riche sorti en vitesse et dit, « S’il te plaît, chante encore. »
@@ -540,7 +557,8 @@
 	<div class="btn-group switcher-group">
 		<a href="#text16" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text18" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<button class="btn btn-lg disabled" id="playbutton17" onclick="playpause('17')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<audio id="audio17" onended="resetbutton('17')" src="https://globalstorybooks.net/media/audio/nn/0315/mp3/17.mp3"></audio>
+		<button class="btn btn-lg" id="playbutton17" onclick="playpause('17')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('nn,eo','eo,fr,nn')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (nynorsk) kaj Esperanto">eo</button>
@@ -568,7 +586,8 @@
 	<div class="btn-group switcher-group">
 		<a href="#text17" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#text19" class="btn btn-lg" title="Sekva paĝo"><i class="icon-arrow-down"></i></a>
-		<button class="btn btn-lg disabled" id="playbutton18" onclick="playpause('18')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<audio id="audio18" onended="resetbutton('18')" src="https://globalstorybooks.net/media/audio/nn/0315/mp3/18.mp3"></audio>
+		<button class="btn btn-lg" id="playbutton18" onclick="playpause('18')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('nn,eo','eo,fr,nn')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (nynorsk) kaj Esperanto">eo</button>
@@ -583,11 +602,11 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/19.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 
-	Den rike mannen var veldig glad for å sjå sonen sin igjen. Han lønte Sakima for at han trøysta han. Han tok sonen sin og Sakima med til sjukehuset slik at Sakima kunne få synet tilbake.
+	Den rike mannen var veldig glad for å sjå sonen sin igjen. Han lønte Sakima for at han trøysta han. Han tok sonen sin og Sakima med til sjukehuset, slik at Sakima kunne få synet tilbake.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	La riĉulo tiel ĝojis revidi sian filon. Li rekompencis Sakima por konsili lin. Li kunprenis sian filon kaj Sakima al la malsanulejo por regajnigi la vidon de Sakima.
+	La riĉulo tiel ĝojis revidi sian filon. Li rekompencis Sakima por konsili lin. Li kunprenis sian filon kaj Sakima al la malsanulejo por regajnigi la vidon al Sakima.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	L’homme riche fut tellement content de revoir son fils. Il récompensa Sakima de l’avoir consolé. Il emmena les deux garçons à l’hôpital pour que Sakima puisse retrouver la vue.
@@ -596,7 +615,8 @@
 	<div class="btn-group switcher-group">
 		<a href="#text18" class="btn btn-lg" title="Antaŭa paĝo"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="Rakontaj informoj"><i class="icon-arrow-down"></i></a>
-		<button class="btn btn-lg disabled" id="playbutton19" onclick="playpause('19')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
+		<audio id="audio19" onended="resetbutton('19')" src="https://globalstorybooks.net/media/audio/nn/0315/mp3/19.mp3"></audio>
+		<button class="btn btn-lg" id="playbutton19" onclick="playpause('19')" title="Ludi/Paŭzi"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('nn,eo','eo,fr,nn')" class="btn btn-lg lang-primary" title="Ŝalti inter norvega (nynorsk) kaj Esperanto">eo</button>
@@ -612,6 +632,7 @@
 		<h5>Verkita de: Ursula Nafula</h5>
 		<h5>Ilustrita de: Peris Wachuka</h5>
 		<h5>Tradukita de: Espen Stranger-Johannessen, Martine Rørstad Sand</h5>
+		<h5>Laŭtlegita de: Kristofer Olai Ravn Stavseng</h5>
 		<h5>Lingvo: <a href="/storybooks-esperantujo/stories/nn">norvega (nynorsk)</a></h5>
 		<h5><a href="/storybooks-esperantujo/stories/nn/level3">3-a nivelo</a></h5>
 		<h5>Fonto: <a href="https://africanstorybook.org/reader.php?id=13244" target="_blank">Sakima's song</a> el la <a href="https://africanstorybook.org/">Afrika Rakontlibro</a></h5>
